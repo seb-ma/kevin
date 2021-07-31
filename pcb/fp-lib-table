@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/../submodules/Keebio-Parts.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/../submodules/random-keyboard-parts.pretty)(options "")(descr ""))
-  (lib (name kevin)(type KiCad)(uri ${KIPRJMOD}/../kevin.pretty)(options "")(descr ""))
+  (lib (name kevin)(type KiCad)(uri ${KIPRJMOD}/kicad-lib/)(options "")(descr ""))
 )

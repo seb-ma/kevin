@@ -818,7 +818,6 @@ Text GLabel 9000 2950 0    50   Input ~ 0
 row1
 Text GLabel 9000 2850 0    50   Input ~ 0
 row0
-Connection ~ 9000 2250
 Wire Wire Line
 	9000 2350 9000 2250
 $Comp
@@ -833,12 +832,12 @@ F 3 "" H 9000 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L nice_nano:nice_nano U1
+L kevin:nice_nano_v2 U1
 U 1 1 60FB3122
 P 9700 2600
 F 0 "U1" H 9700 3537 60  0000 C CNN
 F 1 "nice_nano" H 9700 3431 60  0000 C CNN
-F 2 "nice-nano-kicad:nice_nano" V 10750 100 60  0001 C CNN
+F 2 "kevin:nice_nano_v2_reversible" V 10750 100 60  0001 C CNN
 F 3 "" V 10750 100 60  0001 C CNN
 	1    9700 2600
 	1    0    0    -1  
@@ -1066,7 +1065,7 @@ U 1 1 614E26FF
 P 3450 6000
 F 0 "D_EI1" V 3496 5920 50  0000 R CNN
 F 1 "MBR0530" V 3405 5920 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 3450 6000 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3450 6000 50  0001 C CNN
 F 3 "~" H 3450 6000 50  0001 C CNN
 	1    3450 6000
 	1    0    0    -1  
@@ -1331,4 +1330,6 @@ Text GLabel 6600 5150 0    50   Input ~ 0
 eink_reset
 Text GLabel 9000 2050 0    50   Input ~ 0
 eink_reset
+NoConn ~ 10400 1950
+NoConn ~ 9000 1950
 $EndSCHEMATC
