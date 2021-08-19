@@ -4,1332 +4,1747 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Kevin"
 Date ""
-Rev ""
+Rev "0.1"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "- with side trackball"
+Comment2 "- with joystick either analog or numeric"
+Comment3 "- with e-ink"
+Comment4 "Half part of split keyboard"
 $EndDescr
 $Comp
-L Device:D D05
-U 1 1 60FCD446
-P 5100 1650
-F 0 "D05" V 5146 1570 50  0000 R CNN
-F 1 "D" V 5055 1570 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 5100 1650 50  0001 C CNN
-F 3 "~" H 5100 1650 50  0001 C CNN
-	1    5100 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW00
-U 1 1 60FCED7A
-P 1150 1500
-F 0 "SW00" H 1150 1785 50  0000 C CNN
-F 1 "SW_Push" H 1150 1694 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1150 1700 50  0001 C CNN
-F 3 "~" H 1150 1700 50  0001 C CNN
-	1    1150 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW04
-U 1 1 60FD06DC
-P 4150 1500
-F 0 "SW04" H 4150 1785 50  0000 C CNN
-F 1 "SW_Push" H 4150 1694 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4150 1700 50  0001 C CNN
-F 3 "~" H 4150 1700 50  0001 C CNN
-	1    4150 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW05
-U 1 1 60FD0D14
-P 4900 1500
-F 0 "SW05" H 4900 1785 50  0000 C CNN
-F 1 "SW_Push" H 4900 1694 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4900 1700 50  0001 C CNN
-F 3 "~" H 4900 1700 50  0001 C CNN
-	1    4900 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW03
-U 1 1 60FD45EB
-P 3400 1500
-F 0 "SW03" H 3400 1785 50  0000 C CNN
-F 1 "SW_Push" H 3400 1694 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3400 1700 50  0001 C CNN
-F 3 "~" H 3400 1700 50  0001 C CNN
-	1    3400 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW02
-U 1 1 60FD5E8A
-P 2650 1500
-F 0 "SW02" H 2650 1785 50  0000 C CNN
-F 1 "SW_Push" H 2650 1694 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 2650 1700 50  0001 C CNN
-F 3 "~" H 2650 1700 50  0001 C CNN
-	1    2650 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW01
-U 1 1 60FD64B7
-P 1900 1500
-F 0 "SW01" H 1900 1785 50  0000 C CNN
-F 1 "SW_Push" H 1900 1694 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1900 1700 50  0001 C CNN
-F 3 "~" H 1900 1700 50  0001 C CNN
-	1    1900 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D04
-U 1 1 60FE9531
-P 4350 1650
-F 0 "D04" V 4396 1570 50  0000 R CNN
-F 1 "D" V 4305 1570 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 4350 1650 50  0001 C CNN
-F 3 "~" H 4350 1650 50  0001 C CNN
-	1    4350 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D03
-U 1 1 60FE9A26
-P 3600 1650
-F 0 "D03" V 3646 1570 50  0000 R CNN
-F 1 "D" V 3555 1570 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 3600 1650 50  0001 C CNN
-F 3 "~" H 3600 1650 50  0001 C CNN
-	1    3600 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D02
-U 1 1 60FE9ED2
-P 2850 1650
-F 0 "D02" V 2896 1570 50  0000 R CNN
-F 1 "D" V 2805 1570 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 2850 1650 50  0001 C CNN
-F 3 "~" H 2850 1650 50  0001 C CNN
-	1    2850 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D01
-U 1 1 60FEA5E2
-P 2100 1650
-F 0 "D01" V 2146 1570 50  0000 R CNN
-F 1 "D" V 2055 1570 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 2100 1650 50  0001 C CNN
-F 3 "~" H 2100 1650 50  0001 C CNN
-	1    2100 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D00
-U 1 1 60FEABC8
-P 1350 1650
-F 0 "D00" V 1396 1570 50  0000 R CNN
-F 1 "D" V 1305 1570 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 1350 1650 50  0001 C CNN
-F 3 "~" H 1350 1650 50  0001 C CNN
-	1    1350 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW10
-U 1 1 60FFF38B
-P 1150 2250
-F 0 "SW10" H 1150 2535 50  0000 C CNN
-F 1 "SW_Push" H 1150 2444 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1150 2450 50  0001 C CNN
-F 3 "~" H 1150 2450 50  0001 C CNN
-	1    1150 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW11
-U 1 1 6100239A
-P 1900 2250
-F 0 "SW11" H 1900 2535 50  0000 C CNN
-F 1 "SW_Push" H 1900 2444 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1900 2450 50  0001 C CNN
-F 3 "~" H 1900 2450 50  0001 C CNN
-	1    1900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW12
-U 1 1 61002ABA
-P 2650 2250
-F 0 "SW12" H 2650 2535 50  0000 C CNN
-F 1 "SW_Push" H 2650 2444 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 2650 2450 50  0001 C CNN
-F 3 "~" H 2650 2450 50  0001 C CNN
-	1    2650 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW13
-U 1 1 61003502
-P 3400 2250
-F 0 "SW13" H 3400 2535 50  0000 C CNN
-F 1 "SW_Push" H 3400 2444 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3400 2450 50  0001 C CNN
-F 3 "~" H 3400 2450 50  0001 C CNN
-	1    3400 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW14
-U 1 1 61003B9C
-P 4150 2250
-F 0 "SW14" H 4150 2535 50  0000 C CNN
-F 1 "SW_Push" H 4150 2444 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4150 2450 50  0001 C CNN
-F 3 "~" H 4150 2450 50  0001 C CNN
-	1    4150 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW15
-U 1 1 610040FF
-P 4900 2250
-F 0 "SW15" H 4900 2535 50  0000 C CNN
-F 1 "SW_Push" H 4900 2444 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4900 2450 50  0001 C CNN
-F 3 "~" H 4900 2450 50  0001 C CNN
-	1    4900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D10
-U 1 1 61005128
-P 1350 2400
-F 0 "D10" V 1396 2320 50  0000 R CNN
-F 1 "D" V 1305 2320 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 1350 2400 50  0001 C CNN
-F 3 "~" H 1350 2400 50  0001 C CNN
-	1    1350 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D11
-U 1 1 61005674
-P 2100 2400
-F 0 "D11" V 2146 2320 50  0000 R CNN
-F 1 "D" V 2055 2320 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 2100 2400 50  0001 C CNN
-F 3 "~" H 2100 2400 50  0001 C CNN
-	1    2100 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D12
-U 1 1 61005CE4
-P 2850 2400
-F 0 "D12" V 2896 2320 50  0000 R CNN
-F 1 "D" V 2805 2320 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 2850 2400 50  0001 C CNN
-F 3 "~" H 2850 2400 50  0001 C CNN
-	1    2850 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D13
-U 1 1 610063B5
-P 3600 2400
-F 0 "D13" V 3646 2320 50  0000 R CNN
-F 1 "D" V 3555 2320 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 3600 2400 50  0001 C CNN
-F 3 "~" H 3600 2400 50  0001 C CNN
-	1    3600 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D14
-U 1 1 61006AA1
-P 4350 2400
-F 0 "D14" V 4396 2320 50  0000 R CNN
-F 1 "D" V 4305 2320 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 4350 2400 50  0001 C CNN
-F 3 "~" H 4350 2400 50  0001 C CNN
-	1    4350 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D15
-U 1 1 61007009
-P 5100 2400
-F 0 "D15" V 5146 2320 50  0000 R CNN
-F 1 "D" V 5055 2320 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 5100 2400 50  0001 C CNN
-F 3 "~" H 5100 2400 50  0001 C CNN
-	1    5100 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW20
-U 1 1 6105A22C
-P 1150 3000
-F 0 "SW20" H 1150 3285 50  0000 C CNN
-F 1 "SW_Push" H 1150 3194 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1150 3200 50  0001 C CNN
-F 3 "~" H 1150 3200 50  0001 C CNN
-	1    1150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW21
-U 1 1 6105B0B4
-P 1900 3000
-F 0 "SW21" H 1900 3285 50  0000 C CNN
-F 1 "SW_Push" H 1900 3194 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1900 3200 50  0001 C CNN
-F 3 "~" H 1900 3200 50  0001 C CNN
-	1    1900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW22
-U 1 1 6105BA36
-P 2650 3000
-F 0 "SW22" H 2650 3285 50  0000 C CNN
-F 1 "SW_Push" H 2650 3194 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 2650 3200 50  0001 C CNN
-F 3 "~" H 2650 3200 50  0001 C CNN
-	1    2650 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW23
-U 1 1 6105C1FB
-P 3400 3000
-F 0 "SW23" H 3400 3285 50  0000 C CNN
-F 1 "SW_Push" H 3400 3194 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3400 3200 50  0001 C CNN
-F 3 "~" H 3400 3200 50  0001 C CNN
-	1    3400 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW24
-U 1 1 6105C8EE
-P 4150 3000
-F 0 "SW24" H 4150 3285 50  0000 C CNN
-F 1 "SW_Push" H 4150 3194 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4150 3200 50  0001 C CNN
-F 3 "~" H 4150 3200 50  0001 C CNN
-	1    4150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW25
-U 1 1 6105D1EE
-P 4900 3000
-F 0 "SW25" H 4900 3285 50  0000 C CNN
-F 1 "SW_Push" H 4900 3194 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4900 3200 50  0001 C CNN
-F 3 "~" H 4900 3200 50  0001 C CNN
-	1    4900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D25
-U 1 1 6105F45E
-P 5100 3150
-F 0 "D25" V 5146 3070 50  0000 R CNN
-F 1 "D" V 5055 3070 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 5100 3150 50  0001 C CNN
-F 3 "~" H 5100 3150 50  0001 C CNN
-	1    5100 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D24
-U 1 1 6106199F
-P 4350 3150
-F 0 "D24" V 4396 3070 50  0000 R CNN
-F 1 "D" V 4305 3070 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 4350 3150 50  0001 C CNN
-F 3 "~" H 4350 3150 50  0001 C CNN
-	1    4350 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D23
-U 1 1 6107264E
-P 3600 3150
-F 0 "D23" V 3646 3070 50  0000 R CNN
-F 1 "D" V 3555 3070 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 3600 3150 50  0001 C CNN
-F 3 "~" H 3600 3150 50  0001 C CNN
-	1    3600 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D22
-U 1 1 61072E11
-P 2850 3150
-F 0 "D22" V 2896 3070 50  0000 R CNN
-F 1 "D" V 2805 3070 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 2850 3150 50  0001 C CNN
-F 3 "~" H 2850 3150 50  0001 C CNN
-	1    2850 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D21
-U 1 1 61073676
-P 2100 3150
-F 0 "D21" V 2146 3070 50  0000 R CNN
-F 1 "D" V 2055 3070 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 2100 3150 50  0001 C CNN
-F 3 "~" H 2100 3150 50  0001 C CNN
-	1    2100 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D20
-U 1 1 61073E4C
-P 1350 3150
-F 0 "D20" V 1396 3070 50  0000 R CNN
-F 1 "D" V 1305 3070 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 1350 3150 50  0001 C CNN
-F 3 "~" H 1350 3150 50  0001 C CNN
-	1    1350 3150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5100 3300 4350 3300
-Wire Wire Line
-	4350 3300 3600 3300
-Connection ~ 4350 3300
-Wire Wire Line
-	3600 3300 2850 3300
-Connection ~ 3600 3300
-Wire Wire Line
-	2850 3300 2100 3300
-Connection ~ 2850 3300
-Wire Wire Line
-	2100 3300 1350 3300
-Connection ~ 2100 3300
-Text GLabel 950  1050 1    50   Input ~ 0
-col0
-Text GLabel 1700 1050 1    50   Input ~ 0
-col1
-Text GLabel 2450 1050 1    50   Input ~ 0
-col2
-Text GLabel 3200 1050 1    50   Input ~ 0
-col3
-Text GLabel 3950 1050 1    50   Input ~ 0
-col4
-Text GLabel 4700 1050 1    50   Input ~ 0
-col5
-Text GLabel 1250 3300 0    50   Input ~ 0
-row2
-Wire Wire Line
-	1250 3300 1350 3300
-Connection ~ 1350 3300
-Wire Wire Line
-	1350 1800 2100 1800
-Connection ~ 2100 1800
-Wire Wire Line
-	2100 1800 2850 1800
-Connection ~ 2850 1800
-Wire Wire Line
-	2850 1800 3600 1800
-Connection ~ 3600 1800
-Wire Wire Line
-	3600 1800 4350 1800
-Connection ~ 4350 1800
-Wire Wire Line
-	4350 1800 5100 1800
-Wire Wire Line
-	4700 1500 4700 2250
-Wire Wire Line
-	3950 1500 3950 2250
-Wire Wire Line
-	3200 1500 3200 2250
-Wire Wire Line
-	2450 1500 2450 2250
-Wire Wire Line
-	1700 1500 1700 2250
-Connection ~ 1350 2550
-Wire Wire Line
-	1350 2550 2100 2550
-Connection ~ 2100 2550
-Wire Wire Line
-	2100 2550 2850 2550
-Connection ~ 2850 2550
-Wire Wire Line
-	2850 2550 3600 2550
-Connection ~ 3600 2550
-Wire Wire Line
-	3600 2550 4350 2550
-Connection ~ 4350 2550
-Wire Wire Line
-	4350 2550 5100 2550
-Wire Wire Line
-	4700 2250 4700 3000
-Connection ~ 4700 2250
-Wire Wire Line
-	3950 2250 3950 3000
-Connection ~ 3950 2250
-Wire Wire Line
-	3200 2250 3200 3000
-Connection ~ 3200 2250
-Wire Wire Line
-	2450 2250 2450 3000
-Connection ~ 2450 2250
-Wire Wire Line
-	1700 2250 1700 3000
-Connection ~ 1700 2250
-Wire Wire Line
-	950  1500 950  2250
-Wire Wire Line
-	950  2250 950  3000
-Connection ~ 950  2250
-Wire Wire Line
-	950  1050 950  1500
-Connection ~ 950  1500
-Wire Wire Line
-	1700 1050 1700 1500
-Connection ~ 1700 1500
-Wire Wire Line
-	2450 1050 2450 1500
-Connection ~ 2450 1500
-Wire Wire Line
-	3200 1050 3200 1500
-Connection ~ 3200 1500
-Wire Wire Line
-	3950 1050 3950 1500
-Connection ~ 3950 1500
-Wire Wire Line
-	4700 1050 4700 1500
-Connection ~ 4700 1500
-$Comp
-L Switch:SW_Push SW35
-U 1 1 6118C26B
-P 4900 3750
-F 0 "SW35" H 4900 4035 50  0000 C CNN
-F 1 "SW_Push" H 4900 3944 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4900 3950 50  0001 C CNN
-F 3 "~" H 4900 3950 50  0001 C CNN
-	1    4900 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW34
-U 1 1 6118D0EA
-P 4150 3750
-F 0 "SW34" H 4150 4035 50  0000 C CNN
-F 1 "SW_Push" H 4150 3944 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4150 3950 50  0001 C CNN
-F 3 "~" H 4150 3950 50  0001 C CNN
-	1    4150 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW33
-U 1 1 6118DEA5
-P 3400 3750
-F 0 "SW33" H 3400 4035 50  0000 C CNN
-F 1 "SW_Push" H 3400 3944 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3400 3950 50  0001 C CNN
-F 3 "~" H 3400 3950 50  0001 C CNN
-	1    3400 3750
-	1    0    0    -1  
-$EndComp
-Text GLabel 1250 4050 0    50   Input ~ 0
-row3
-$Comp
-L Device:D D35
-U 1 1 6118F148
-P 5100 3900
-F 0 "D35" V 5146 3820 50  0000 R CNN
-F 1 "D" V 5055 3820 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 5100 3900 50  0001 C CNN
-F 3 "~" H 5100 3900 50  0001 C CNN
-	1    5100 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D34
-U 1 1 6118FE34
-P 4350 3900
-F 0 "D34" V 4396 3820 50  0000 R CNN
-F 1 "D" V 4305 3820 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 4350 3900 50  0001 C CNN
-F 3 "~" H 4350 3900 50  0001 C CNN
-	1    4350 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D33
-U 1 1 61190924
-P 3600 3900
-F 0 "D33" V 3646 3820 50  0000 R CNN
-F 1 "D" V 3555 3820 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 3600 3900 50  0001 C CNN
-F 3 "~" H 3600 3900 50  0001 C CNN
-	1    3600 3900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5100 4050 4350 4050
-Wire Wire Line
-	4350 4050 3600 4050
-Connection ~ 4350 4050
-Wire Wire Line
-	4700 3000 4700 3750
-Connection ~ 4700 3000
-Wire Wire Line
-	3950 3000 3950 3750
-Connection ~ 3950 3000
-Wire Wire Line
-	3200 3000 3200 3750
-Connection ~ 3200 3000
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 60FE2446
-P 7400 1800
-F 0 "BT1" H 7518 1896 50  0000 L CNN
-F 1 "Battery_Cell" H 7518 1805 50  0000 L CNN
-F 2 "" V 7400 1860 50  0001 C CNN
-F 3 "~" V 7400 1860 50  0001 C CNN
-	1    7400 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J3
+L Connector_Generic:Conn_01x08 J03
 U 1 1 60FE5604
-P 6850 4850
-F 0 "J3" H 6930 4842 50  0000 L CNN
-F 1 "eink" H 6930 4751 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 6850 4850 50  0001 C CNN
-F 3 "~" H 6850 4850 50  0001 C CNN
-	1    6850 4850
+P 13095 1410
+F 0 "J03" H 13175 1402 50  0000 L CNN
+F 1 "eink" H 13175 1311 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 13095 1410 50  0001 C CNN
+F 3 "~" H 13095 1410 50  0001 C CNN
+	1    13095 1410
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 4750 0    50   Input ~ 0
-mosi
-Text GLabel 6600 4850 0    50   Input ~ 0
-sclk
-Text GLabel 6200 2700 0    50   Input ~ 0
-reset
-Text GLabel 1250 1800 0    50   Input ~ 0
-row0
-Connection ~ 1350 1800
-Wire Wire Line
-	1250 1800 1350 1800
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 611AB542
-P 6850 3600
-F 0 "J2" H 6930 3592 50  0000 L CNN
-F 1 "joystick" H 6930 3501 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Molex_200528-0050_1x05-1MP_P1.00mm_Horizontal" H 6850 3600 50  0001 C CNN
-F 3 "~" H 6850 3600 50  0001 C CNN
-	1    6850 3600
-	1    0    0    -1  
-$EndComp
-Text GLabel 6600 3500 0    50   Input ~ 0
-joyX
-Text GLabel 6600 3700 0    50   Input ~ 0
-joyY
-$Comp
-L Switch:SW_Push SW32
-U 1 1 60FDF5F9
-P 2650 3750
-F 0 "SW32" H 2650 4035 50  0000 C CNN
-F 1 "SW_Push" H 2650 3944 50  0000 C CNN
-F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 2650 3950 50  0001 C CNN
-F 3 "~" H 2650 3950 50  0001 C CNN
-	1    2650 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D32
-U 1 1 60FE0325
-P 2850 3900
-F 0 "D32" V 2896 3820 50  0000 R CNN
-F 1 "D" V 2805 3820 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 2850 3900 50  0001 C CNN
-F 3 "~" H 2850 3900 50  0001 C CNN
-	1    2850 3900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2450 3000 2450 3750
-Connection ~ 2450 3000
-Wire Wire Line
-	2850 4050 3600 4050
-Connection ~ 3600 4050
-Wire Wire Line
-	1250 4050 2850 4050
-Connection ~ 2850 4050
-Text GLabel 6600 5050 0    50   Input ~ 0
+Text GLabel 12895 1310 0    50   Input ~ 0
+spi_mosi
+Text GLabel 12895 1410 0    50   Input ~ 0
+spi_clk
+Text GLabel 12895 1610 0    50   Input ~ 0
 eink_dc
-Text GLabel 6600 5250 0    50   Input ~ 0
+Text GLabel 12895 1810 0    50   Output ~ 0
 eink_busy
-Text Notes 6200 5450 0    50   ~ 0
-https://www.waveshare.com/product/displays/e-paper/epaper-3/1.02inch-e-paper-module.htm
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 6109793D
-P 6850 1700
-F 0 "J1" H 6930 1692 50  0000 L CNN
-F 1 "battery" H 6930 1601 50  0000 L CNN
-F 2 "random-keyboard-parts:JST-SR-3" H 6850 1700 50  0001 C CNN
-F 3 "~" H 6850 1700 50  0001 C CNN
-	1    6850 1700
-	1    0    0    -1  
-$EndComp
-Text GLabel 6200 1700 0    50   Input ~ 0
-batin
-$Comp
-L power:GND #PWR0102
-U 1 1 6109E23E
-P 6650 1900
-F 0 "#PWR0102" H 6650 1650 50  0001 C CNN
-F 1 "GND" V 6655 1772 50  0000 R CNN
-F 2 "" H 6650 1900 50  0001 C CNN
-F 3 "" H 6650 1900 50  0001 C CNN
-	1    6650 1900
-	0    1    1    0   
-$EndComp
-Text Notes 5650 3250 0    50   ~ 0
-analog joystick
-$Comp
-L Switch:SW_SPST SW_IO_1
-U 1 1 611C4D74
-P 6450 1700
-F 0 "SW_IO_1" H 6450 1935 50  0000 C CNN
-F 1 "SW_SPST" H 6450 1844 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 6450 1700 50  0001 C CNN
-F 3 "~" H 6450 1700 50  0001 C CNN
-	1    6450 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 1800 6650 1900
-Wire Wire Line
-	6650 3500 6600 3500
-Wire Wire Line
-	6650 3700 6600 3700
-Wire Wire Line
-	6650 4750 6600 4750
-Wire Wire Line
-	6650 4850 6600 4850
-Wire Wire Line
-	6650 4950 6600 4950
-Wire Wire Line
-	6650 5050 6600 5050
-Wire Wire Line
-	6650 5150 6600 5150
-Wire Wire Line
-	6650 5250 6600 5250
-Wire Wire Line
-	6250 1700 6200 1700
+Text GLabel 12220 1110 0    50   Input ~ 0
+vdd_3v3
+Text Notes 12125 890  0    50   ~ 0
+e-ink with built-in driver
+Text GLabel 12220 1510 0    50   Input ~ 0
+eink_cs
+Text GLabel 12895 1710 0    50   Input ~ 0
+spi_reset
 $Comp
 L power:GND #PWR0103
 U 1 1 60FE810D
-P 6650 4650
-F 0 "#PWR0103" H 6650 4400 50  0001 C CNN
-F 1 "GND" V 6655 4522 50  0000 R CNN
-F 2 "" H 6650 4650 50  0001 C CNN
-F 3 "" H 6650 4650 50  0001 C CNN
-	1    6650 4650
+P 12895 1210
+F 0 "#PWR0103" H 12895 960 50  0001 C CNN
+F 1 "GND" V 12900 1082 50  0000 R CNN
+F 2 "" H 12895 1210 50  0001 C CNN
+F 3 "" H 12895 1210 50  0001 C CNN
+	1    12895 1210
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12220 1110 12295 1110
 $Comp
-L power:GND #PWR0104
-U 1 1 6100A999
-P 6650 2700
-F 0 "#PWR0104" H 6650 2450 50  0001 C CNN
-F 1 "GND" V 6655 2572 50  0000 R CNN
-F 2 "" H 6650 2700 50  0001 C CNN
-F 3 "" H 6650 2700 50  0001 C CNN
-	1    6650 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW_RST_1
-U 1 1 610096B7
-P 6450 2700
-F 0 "SW_RST_1" H 6450 2985 50  0000 C CNN
-F 1 "SW_Push" H 6450 2894 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 6450 2900 50  0001 C CNN
-F 3 "~" H 6450 2900 50  0001 C CNN
-	1    6450 2700
+L Device:R R002
+U 1 1 614C56E7
+P 12295 1310
+F 0 "R002" H 12365 1356 50  0000 L CNN
+F 1 "10k" H 12365 1265 50  0000 L CNN
+F 2 "kevin:R_1206_reversible" V 12225 1310 50  0001 C CNN
+F 3 "~" H 12295 1310 50  0001 C CNN
+	1    12295 1310
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12220 1510 12295 1510
+Wire Wire Line
+	12295 1460 12295 1510
+Connection ~ 12295 1510
+Wire Wire Line
+	12295 1510 12895 1510
+Wire Wire Line
+	12295 1160 12295 1110
+Connection ~ 12295 1110
+Wire Wire Line
+	12295 1110 12895 1110
+Text GLabel 4950 5225 0    50   Output ~ 0
+trackball_detect
+Text GLabel 4950 5125 0    50   Input ~ 0
+spi_reset
+Text Notes 4300 4375 0    50   ~ 0
+connector (pogo)\nto external trackball -->
+Text GLabel 4950 5025 0    50   Input ~ 0
+trackball_cs
+Text GLabel 4950 4825 0    50   Output ~ 0
+spi_miso
+Text GLabel 4950 4925 0    50   Input ~ 0
+spi_clk
+Text GLabel 4950 4725 0    50   Input ~ 0
+spi_mosi
 $Comp
-L power:GND #PWR0105
-U 1 1 61000FFE
-P 10400 2150
-F 0 "#PWR0105" H 10400 1900 50  0001 C CNN
-F 1 "GND" V 10405 2022 50  0000 R CNN
-F 2 "" H 10400 2150 50  0001 C CNN
-F 3 "" H 10400 2150 50  0001 C CNN
-	1    10400 2150
+L power:GND #PWR0115
+U 1 1 61108E9E
+P 4950 4625
+F 0 "#PWR0115" H 4950 4375 50  0001 C CNN
+F 1 "GND" V 4955 4497 50  0000 R CNN
+F 2 "" H 4950 4625 50  0001 C CNN
+F 3 "" H 4950 4625 50  0001 C CNN
+	1    4950 4625
+	0    1    1    0   
+$EndComp
+Text GLabel 4950 4525 0    50   Input ~ 0
+vdd_3v3
+$Comp
+L Connector_Generic:Conn_01x08 J4
+U 1 1 61101D88
+P 5150 4825
+F 0 "J4" H 5230 4817 50  0000 L CNN
+F 1 "to-trackball-side" H 5230 4726 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 5150 4825 50  0001 C CNN
+F 3 "~" H 5150 4825 50  0001 C CNN
+	1    5150 4825
+	1    0    0    -1  
+$EndComp
+Text GLabel 3975 6975 0    50   Input ~ 0
+vdd_2v
+Text GLabel 3975 7275 0    50   Input ~ 0
+spi_reset
+Text GLabel 3975 7075 0    50   Input ~ 0
+vdd_3v3
+NoConn ~ 3975 7175
+NoConn ~ 3975 6775
+NoConn ~ 3975 6675
+$Comp
+L Device:C_Small C21
+U 1 1 612464ED
+P 3500 6875
+F 0 "C21" V 3271 6875 50  0000 C CNN
+F 1 "4.7uF" V 3362 6875 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3500 6875 50  0001 C CNN
+F 3 "~" H 3500 6875 50  0001 C CNN
+	1    3500 6875
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10400 2650 2    50   Input ~ 0
-col0
-Text GLabel 10400 2750 2    50   Input ~ 0
-col1
-Text GLabel 10400 2850 2    50   Input ~ 0
-col2
-Text GLabel 10400 2950 2    50   Input ~ 0
-col3
-Text GLabel 10400 3050 2    50   Input ~ 0
-col4
-Text GLabel 10400 3150 2    50   Input ~ 0
-col5
-Text GLabel 10400 2450 2    50   Input ~ 0
-joyX
-Text GLabel 10400 2550 2    50   Input ~ 0
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 612BA03C
+P 1175 7000
+F 0 "J5" H 1255 6992 50  0000 L CNN
+F 1 "trackball-side" H 1255 6901 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 1175 7000 50  0001 C CNN
+F 3 "~" H 1175 7000 50  0001 C CNN
+	1    1175 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61214821
+P 3275 4825
+F 0 "#PWR0101" H 3275 4575 50  0001 C CNN
+F 1 "GND" V 3280 4697 50  0000 R CNN
+F 2 "" H 3275 4825 50  0001 C CNN
+F 3 "" H 3275 4825 50  0001 C CNN
+	1    3275 4825
+	0    1    1    0   
+$EndComp
+Text GLabel 3275 4625 0    50   Input ~ 0
+vdd_3v3
+Text Notes 3025 4300 0    50   ~ 0
+analog joystick
+Text GLabel 3275 4725 0    50   Output ~ 0
 joyY
-Text GLabel 10400 2050 2    50   Input ~ 0
-batin
-NoConn ~ 9700 3650
-NoConn ~ 9550 3650
-NoConn ~ 9400 3650
-Text GLabel 9000 2450 0    50   Input ~ 0
-sclk
-Text GLabel 9000 2550 0    50   Input ~ 0
-mosi
-Text GLabel 9000 3150 0    50   Input ~ 0
-row3
-Text GLabel 9000 3050 0    50   Input ~ 0
-row2
-Text GLabel 9000 2950 0    50   Input ~ 0
-row1
-Text GLabel 9000 2850 0    50   Input ~ 0
-row0
-Wire Wire Line
-	9000 2350 9000 2250
+Text GLabel 3275 4525 0    50   Output ~ 0
+joyX
 $Comp
-L power:GND #PWR0106
-U 1 1 60FFDD6F
-P 9000 2250
-F 0 "#PWR0106" H 9000 2000 50  0001 C CNN
-F 1 "GND" V 9005 2122 50  0000 R CNN
-F 2 "" H 9000 2250 50  0001 C CNN
-F 3 "" H 9000 2250 50  0001 C CNN
-	1    9000 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L kevin:nice_nano_v2 U1
-U 1 1 60FB3122
-P 9700 2600
-F 0 "U1" H 9700 3537 60  0000 C CNN
-F 1 "nice_nano" H 9700 3431 60  0000 C CNN
-F 2 "kevin:nice_nano_v2_reversible" V 10750 100 60  0001 C CNN
-F 3 "" V 10750 100 60  0001 C CNN
-	1    9700 2600
+L Connector_Generic:Conn_01x04 J2
+U 1 1 611AB542
+P 3475 4625
+F 0 "J2" H 3555 4617 50  0000 L CNN
+F 1 "joystick_analogic" H 3555 4526 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Molex_200528-0050_1x05-1MP_P1.00mm_Horizontal" H 3475 4625 50  0001 C CNN
+F 3 "~" H 3475 4625 50  0001 C CNN
+	1    3475 4625
 	1    0    0    -1  
 $EndComp
-Text GLabel 10400 2250 2    50   Input ~ 0
-reset
-Text GLabel 6600 3600 0    50   Input ~ 0
-vcc_ext
-Text GLabel 6600 4550 0    50   Input ~ 0
-vcc_ext
-Wire Wire Line
-	6650 4550 6600 4550
-Wire Wire Line
-	6650 3600 6600 3600
-Text GLabel 10400 2350 2    50   Input ~ 0
-vcc_ext
-Text Notes 5650 2300 0    50   ~ 0
-reset
-Text Notes 5650 1350 0    50   ~ 0
-power (lithium battery 3.7V)
-Text Notes 5650 4400 0    50   ~ 0
-e-ink with built-in driver
-Wire Wire Line
-	6250 2700 6200 2700
-Wire Wire Line
-	1250 2550 1350 2550
-Text GLabel 1250 2550 0    50   Input ~ 0
-row1
-Text GLabel 9000 2650 0    50   Input ~ 0
-eink_cs
-Text GLabel 9000 2750 0    50   Input ~ 0
-eink_dc
-Text GLabel 9000 2150 0    50   Input ~ 0
-eink_busy
-Text GLabel 6600 4950 0    50   Input ~ 0
-eink_cs
+Text Notes 625  3825 0    118  ~ 24
+Pointers
+Text Notes 2100 3950 0    50   Italic 0
+NB: joystick footprints are overlapped\n(only one physical joystick is connected:\neither analog or numeric)\njoyX and row4 share a pin on MCU
+Text Notes 725  4300 0    50   ~ 0
+numeric joystick
+Text Notes 725  6550 0    50   ~ 0
+connector (pogo)\nfrom main pcb -->
+Text Notes 9935 4965 0    50   Italic 0
+(used for PMW3360)
 $Comp
-L Connector_Generic:Conn_01x30 J3-DRV1
+L Connector_Generic:Conn_01x30 J3
 U 1 1 613FE89D
-P 4950 6000
-F 0 "J3-DRV1" H 5030 5992 50  0000 L CNN
-F 1 "eink" H 5030 5901 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" H 4950 6000 50  0001 C CNN
-F 3 "~" H 4950 6000 50  0001 C CNN
-	1    4950 6000
+P 10950 2625
+F 0 "J3" H 11030 2617 50  0000 L CNN
+F 1 "eink" H 11030 2526 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" H 10950 2625 50  0001 C CNN
+F 3 "~" H 10950 2625 50  0001 C CNN
+	1    10950 2625
 	1    0    0    -1  
 $EndComp
-Text Notes 750  7150 0    50   ~ 0
-https://www.waveshare.com/wiki/1.02inch_e-Paper_Module
-Text Notes 750  7300 0    50   ~ 0
-https://www.waveshare.com/product/displays/e-paper/epaper-3/1.02inch-e-paper.htm
-Text GLabel 3550 4800 0    50   Input ~ 0
-vcc_ext
 $Comp
 L power:GND #PWR0107
 U 1 1 6147F0CA
-P 4750 4700
-F 0 "#PWR0107" H 4750 4450 50  0001 C CNN
-F 1 "GND" V 4755 4572 50  0000 R CNN
-F 2 "" H 4750 4700 50  0001 C CNN
-F 3 "" H 4750 4700 50  0001 C CNN
-	1    4750 4700
+P 10750 1325
+F 0 "#PWR0107" H 10750 1075 50  0001 C CNN
+F 1 "GND" V 10755 1197 50  0000 R CNN
+F 2 "" H 10750 1325 50  0001 C CNN
+F 3 "" H 10750 1325 50  0001 C CNN
+	1    10750 1325
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 6147F688
-P 3850 5000
-F 0 "#PWR0108" H 3850 4750 50  0001 C CNN
-F 1 "GND" V 3855 4872 50  0000 R CNN
-F 2 "" H 3850 5000 50  0001 C CNN
-F 3 "" H 3850 5000 50  0001 C CNN
-	1    3850 5000
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 6147FE13
-P 3300 5800
-F 0 "#PWR0109" H 3300 5550 50  0001 C CNN
-F 1 "GND" V 3305 5672 50  0000 R CNN
-F 2 "" H 3300 5800 50  0001 C CNN
-F 3 "" H 3300 5800 50  0001 C CNN
-	1    3300 5800
+P 9325 2425
+F 0 "#PWR0109" H 9325 2175 50  0001 C CNN
+F 1 "GND" V 9330 2297 50  0000 R CNN
+F 2 "" H 9325 2425 50  0001 C CNN
+F 3 "" H 9325 2425 50  0001 C CNN
+	1    9325 2425
 	0    1    1    0   
 $EndComp
-Text GLabel 4700 4900 0    50   Input ~ 0
-mosi
-Text GLabel 4700 5000 0    50   Input ~ 0
-sclk
-Text GLabel 4700 5100 0    50   Input ~ 0
+Text GLabel 10750 1625 0    50   Input ~ 0
+spi_clk
+Text GLabel 10150 1725 0    50   Input ~ 0
 eink_cs
-Text GLabel 4700 5200 0    50   Input ~ 0
-eink_dc
-Text GLabel 4700 5300 0    50   Input ~ 0
-eink_reset
-Text GLabel 4700 5400 0    50   Input ~ 0
+Text GLabel 10750 1925 0    50   Input ~ 0
+spi_reset
+Text GLabel 10750 2025 0    50   Output ~ 0
 eink_busy
-Wire Wire Line
-	3600 5000 3850 5000
-Connection ~ 3850 5000
-Wire Wire Line
-	3850 5000 4100 5000
-Wire Wire Line
-	3600 4800 3550 4800
-Connection ~ 3600 4800
-Connection ~ 4100 4800
-Wire Wire Line
-	4100 4800 3600 4800
-Wire Wire Line
-	4750 4800 4100 4800
+NoConn ~ 10750 1225
 $Comp
-L Device:C_Small C1
-U 1 1 61488B73
-P 3600 4900
-F 0 "C1" H 3692 4946 50  0000 L CNN
-F 1 "0.1uF" H 3692 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3600 4900 50  0001 C CNN
-F 3 "~" H 3600 4900 50  0001 C CNN
-	1    3600 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 61488010
-P 4100 4900
-F 0 "C2" H 4192 4946 50  0000 L CNN
-F 1 "4.7uF" H 4192 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4100 4900 50  0001 C CNN
-F 3 "~" H 4100 4900 50  0001 C CNN
-	1    4100 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 5600 3500 5600
-Connection ~ 3500 5600
-Wire Wire Line
-	3300 5600 3300 5800
-Connection ~ 3300 5600
-Wire Wire Line
-	3300 6000 3300 6500
-Connection ~ 3300 6000
-Wire Wire Line
-	4750 6000 3600 6000
-Connection ~ 3300 5800
-Wire Wire Line
-	3300 5800 3300 6000
-Wire Wire Line
-	4650 6100 4750 6100
-Wire Wire Line
-	4650 6500 4750 6500
-Wire Wire Line
-	4650 6900 4750 6900
-Wire Wire Line
-	4450 6100 4450 6200
-Wire Wire Line
-	4450 6200 4750 6200
-Wire Wire Line
-	4450 6500 4450 6600
-Wire Wire Line
-	4450 6600 4750 6600
-$Comp
-L Device:C_Small C15
-U 1 1 61557A76
-P 4550 7300
-F 0 "C15" V 4321 7300 50  0000 C CNN
-F 1 "1uF" V 4412 7300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 7300 50  0001 C CNN
-F 3 "~" H 4550 7300 50  0001 C CNN
-	1    4550 7300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4650 7300 4750 7300
-Wire Wire Line
-	4750 7500 4650 7500
-Wire Wire Line
-	3500 6500 3600 6500
-Wire Wire Line
-	3600 6500 3600 6000
-Connection ~ 3600 6000
-NoConn ~ 4750 4600
-Wire Wire Line
-	3300 5250 3300 5600
-Wire Wire Line
-	3500 5600 3500 5250
-$Comp
-L Device:C_Small C3
+L Device:C_Small C03
 U 1 1 614E11C9
-P 3400 5250
-F 0 "C3" V 3171 5250 50  0000 C CNN
-F 1 "0.1uF" V 3262 5250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3400 5250 50  0001 C CNN
-F 3 "~" H 3400 5250 50  0001 C CNN
-	1    3400 5250
+P 9425 1900
+F 0 "C03" V 9196 1900 50  0000 C CNN
+F 1 "0.1uF" V 9287 1900 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 9425 1900 50  0001 C CNN
+F 3 "~" H 9425 1900 50  0001 C CNN
+	1    9425 1900
 	0    1    1    0   
 $EndComp
-Text Notes 3100 4450 0    50   ~ 0
-e-ink without built-in driver
+Text Notes 8725 1000 0    50   ~ 0
+e-ink\nWaveshare 1.02inch e-Paper (without built-in driver)
 $Comp
-L Device:C_Small C4
+L Device:C_Small C04
 U 1 1 614E19FC
-P 3400 5600
-F 0 "C4" V 3171 5600 50  0000 C CNN
-F 1 "1uF" V 3262 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3400 5600 50  0001 C CNN
-F 3 "~" H 3400 5600 50  0001 C CNN
-	1    3400 5600
+P 9425 2225
+F 0 "C04" V 9196 2225 50  0000 C CNN
+F 1 "1uF" V 9287 2225 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 9425 2225 50  0001 C CNN
+F 3 "~" H 9425 2225 50  0001 C CNN
+	1    9425 2225
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C5
-U 1 1 614E2176
-P 3400 6500
-F 0 "C5" V 3171 6500 50  0000 C CNN
-F 1 "1uF" V 3262 6500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3400 6500 50  0001 C CNN
-F 3 "~" H 3400 6500 50  0001 C CNN
-	1    3400 6500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D_EI1
+L Device:D_Schottky DS01
 U 1 1 614E26FF
-P 3450 6000
-F 0 "D_EI1" V 3496 5920 50  0000 R CNN
-F 1 "MBR0530" V 3405 5920 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 3450 6000 50  0001 C CNN
-F 3 "~" H 3450 6000 50  0001 C CNN
-	1    3450 6000
+P 9475 2625
+F 0 "DS01" V 9521 2545 50  0000 R CNN
+F 1 "D_Sch" V 9430 2545 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 9475 2625 50  0001 C CNN
+F 3 "~" H 9475 2625 50  0001 C CNN
+	1    9475 2625
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C13
-U 1 1 616667A7
-P 4550 6900
-F 0 "C13" V 4321 6900 50  0000 C CNN
-F 1 "1uF" V 4412 6900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 6900 50  0001 C CNN
-F 3 "~" H 4550 6900 50  0001 C CNN
-	1    4550 6900
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C11
 U 1 1 616675D7
-P 4550 6500
-F 0 "C11" V 4321 6500 50  0000 C CNN
-F 1 "1uF" V 4412 6500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 6500 50  0001 C CNN
-F 3 "~" H 4550 6500 50  0001 C CNN
-	1    4550 6500
+P 10375 3125
+F 0 "C11" V 10146 3125 50  0000 C CNN
+F 1 "1uF" V 10237 3125 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10375 3125 50  0001 C CNN
+F 3 "~" H 10375 3125 50  0001 C CNN
+	1    10375 3125
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C9
-U 1 1 61667FE8
-P 4550 6100
-F 0 "C9" V 4321 6100 50  0000 C CNN
-F 1 "1uF" V 4412 6100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 6100 50  0001 C CNN
-F 3 "~" H 4550 6100 50  0001 C CNN
-	1    4550 6100
-	0    1    1    0   
-$EndComp
-Text Notes 5050 5550 0    50   ~ 0
-4-line SPI
 $Comp
 L power:GND #PWR0111
 U 1 1 61003815
-P 4700 5500
-F 0 "#PWR0111" H 4700 5250 50  0001 C CNN
-F 1 "GND" V 4705 5372 50  0000 R CNN
-F 2 "" H 4700 5500 50  0001 C CNN
-F 3 "" H 4700 5500 50  0001 C CNN
-	1    4700 5500
+P 10275 2125
+F 0 "#PWR0111" H 10275 1875 50  0001 C CNN
+F 1 "GND" V 10280 1997 50  0000 R CNN
+F 2 "" H 10275 2125 50  0001 C CNN
+F 3 "" H 10275 2125 50  0001 C CNN
+	1    10275 2125
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4750 4900 4700 4900
-Wire Wire Line
-	4750 5000 4700 5000
-Wire Wire Line
-	4750 5100 4700 5100
-Wire Wire Line
-	4750 5200 4700 5200
-Wire Wire Line
-	4750 5300 4700 5300
-Wire Wire Line
-	4750 5400 4700 5400
-Wire Wire Line
-	4750 5500 4700 5500
-Wire Wire Line
-	4750 5800 4650 5800
 $Comp
-L Device:C_Small C7
+L Device:C_Small C07
 U 1 1 61669C1A
-P 4550 5800
-F 0 "C7" V 4321 5800 50  0000 C CNN
-F 1 "1uF" V 4412 5800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 5800 50  0001 C CNN
-F 3 "~" H 4550 5800 50  0001 C CNN
-	1    4550 5800
+P 10375 2425
+F 0 "C07" V 10146 2425 50  0000 C CNN
+F 1 "1uF" V 10237 2425 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10375 2425 50  0001 C CNN
+F 3 "~" H 10375 2425 50  0001 C CNN
+	1    10375 2425
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4750 5700 4650 5700
 $Comp
-L Device:C_Small C6
+L Device:C_Small C06
 U 1 1 61669F0B
-P 4550 5700
-F 0 "C6" V 4321 5700 50  0000 C CNN
-F 1 "1uF" V 4412 5700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 5700 50  0001 C CNN
-F 3 "~" H 4550 5700 50  0001 C CNN
-	1    4550 5700
+P 10650 2325
+F 0 "C06" V 10421 2325 50  0000 C CNN
+F 1 "1uF" V 10512 2325 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10650 2325 50  0001 C CNN
+F 3 "~" H 10650 2325 50  0001 C CNN
+	1    10650 2325
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4750 5900 4650 5900
 $Comp
-L Device:C_Small C8
+L Device:C_Small C08
 U 1 1 616697D2
-P 4550 5900
-F 0 "C8" V 4321 5900 50  0000 C CNN
-F 1 "1uF" V 4412 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 5900 50  0001 C CNN
-F 3 "~" H 4550 5900 50  0001 C CNN
-	1    4550 5900
+P 10650 2525
+F 0 "C08" V 10421 2525 50  0000 C CNN
+F 1 "1uF" V 10512 2525 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10650 2525 50  0001 C CNN
+F 3 "~" H 10650 2525 50  0001 C CNN
+	1    10650 2525
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3300 5800 4450 5800
-Connection ~ 4450 5800
-Wire Wire Line
-	4450 5800 4450 5900
-Wire Wire Line
-	4450 5700 4450 5800
-Wire Wire Line
-	4650 6300 4750 6300
 $Comp
 L Device:C_Small C10
 U 1 1 61667B77
-P 4550 6300
-F 0 "C10" V 4321 6300 50  0000 C CNN
-F 1 "1uF" V 4412 6300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 6300 50  0001 C CNN
-F 3 "~" H 4550 6300 50  0001 C CNN
-	1    4550 6300
+P 10650 2925
+F 0 "C10" V 10421 2925 50  0000 C CNN
+F 1 "1uF" V 10512 2925 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10650 2925 50  0001 C CNN
+F 3 "~" H 10650 2925 50  0001 C CNN
+	1    10650 2925
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4450 6400 4750 6400
-Wire Wire Line
-	4450 6300 4450 6400
-Wire Wire Line
-	4750 6700 4650 6700
-Wire Wire Line
-	4450 6800 4750 6800
-Wire Wire Line
-	4450 6700 4450 6800
-Wire Wire Line
-	4450 7000 4750 7000
-Wire Wire Line
-	4450 7200 4750 7200
-Wire Wire Line
-	4450 6900 4450 7000
-Wire Wire Line
-	4450 7400 4450 7500
-Connection ~ 4450 7400
-Wire Wire Line
-	4450 7300 4450 7400
 $Comp
 L power:GND #PWR0110
 U 1 1 61568D6D
-P 4450 7400
-F 0 "#PWR0110" H 4450 7150 50  0001 C CNN
-F 1 "GND" V 4455 7272 50  0000 R CNN
-F 2 "" H 4450 7400 50  0001 C CNN
-F 3 "" H 4450 7400 50  0001 C CNN
-	1    4450 7400
+P 10275 4025
+F 0 "#PWR0110" H 10275 3775 50  0001 C CNN
+F 1 "GND" V 10280 3897 50  0000 R CNN
+F 2 "" H 10275 4025 50  0001 C CNN
+F 3 "" H 10275 4025 50  0001 C CNN
+	1    10275 4025
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4750 7400 4650 7400
 $Comp
 L Device:C_Small C16
 U 1 1 6155808D
-P 4550 7400
-F 0 "C16" V 4321 7400 50  0000 C CNN
-F 1 "2.2uF" V 4412 7400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 7400 50  0001 C CNN
-F 3 "~" H 4550 7400 50  0001 C CNN
-	1    4550 7400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4450 7100 4450 7200
-Wire Wire Line
-	4650 7100 4750 7100
-$Comp
-L Device:C_Small C14
-U 1 1 61666227
-P 4550 7100
-F 0 "C14" V 4321 7100 50  0000 C CNN
-F 1 "2.2uF" V 4412 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 7100 50  0001 C CNN
-F 3 "~" H 4550 7100 50  0001 C CNN
-	1    4550 7100
+P 10650 4025
+F 0 "C16" V 10421 4025 50  0000 C CNN
+F 1 "2.2uF" V 10512 4025 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10650 4025 50  0001 C CNN
+F 3 "~" H 10650 4025 50  0001 C CNN
+	1    10650 4025
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C17
 U 1 1 61558ADB
-P 4550 7500
-F 0 "C17" V 4321 7500 50  0000 C CNN
-F 1 "1uF" V 4412 7500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 7500 50  0001 C CNN
-F 3 "~" H 4550 7500 50  0001 C CNN
-	1    4550 7500
+P 10375 4125
+F 0 "C17" V 10146 4125 50  0000 C CNN
+F 1 "1uF" V 10237 4125 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10375 4125 50  0001 C CNN
+F 3 "~" H 10375 4125 50  0001 C CNN
+	1    10375 4125
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C12
 U 1 1 61667101
-P 4550 6700
-F 0 "C12" V 4321 6700 50  0000 C CNN
-F 1 "1uF" V 4412 6700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 6700 50  0001 C CNN
-F 3 "~" H 4550 6700 50  0001 C CNN
-	1    4550 6700
+P 10650 3325
+F 0 "C12" V 10421 3325 50  0000 C CNN
+F 1 "1uF" V 10512 3325 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10650 3325 50  0001 C CNN
+F 3 "~" H 10650 3325 50  0001 C CNN
+	1    10650 3325
+	0    1    1    0   
+$EndComp
+Text GLabel 10750 1825 0    50   Input ~ 0
+eink_dc
+$Comp
+L Device:C_Small C15
+U 1 1 61557A76
+P 10375 3925
+F 0 "C15" V 10146 3925 50  0000 C CNN
+F 1 "1uF" V 10237 3925 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10375 3925 50  0001 C CNN
+F 3 "~" H 10375 3925 50  0001 C CNN
+	1    10375 3925
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0101
-U 1 1 61214821
-P 6650 3800
-F 0 "#PWR0101" H 6650 3550 50  0001 C CNN
-F 1 "GND" V 6655 3672 50  0000 R CNN
-F 2 "" H 6650 3800 50  0001 C CNN
-F 3 "" H 6650 3800 50  0001 C CNN
-	1    6650 3800
+L Device:C_Small C13
+U 1 1 616667A7
+P 10375 3525
+F 0 "C13" V 10146 3525 50  0000 C CNN
+F 1 "1uF" V 10237 3525 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10375 3525 50  0001 C CNN
+F 3 "~" H 10375 3525 50  0001 C CNN
+	1    10375 3525
 	0    1    1    0   
+$EndComp
+Text Notes 8700 725  0    118  ~ 24
+Display
+Text Notes 9750 4975 0    50   ~ 0
+LDO
+$Comp
+L power:GND #PWR0114
+U 1 1 611D91CD
+P 10375 5650
+F 0 "#PWR0114" H 10375 5400 50  0001 C CNN
+F 1 "GND" V 10380 5522 50  0000 R CNN
+F 2 "" H 10375 5650 50  0001 C CNN
+F 3 "" H 10375 5650 50  0001 C CNN
+	1    10375 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 10675 5350 2    50   Output ~ 0
+vdd_2v
+$Comp
+L Regulator_Linear:XC6206PxxxMR U2
+U 1 1 611AA876
+P 10375 5350
+F 0 "U2" H 10375 5592 50  0000 C CNN
+F 1 "XC6206P202MR-G" H 10375 5501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10375 5575 50  0001 C CIN
+F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H 10375 5350 50  0001 C CNN
+	1    10375 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 1875 0    50   Output ~ 0
+spi_clk
+Text GLabel 8000 1875 2    50   BiDi ~ 0
+joyX_or_row4
+Text GLabel 8000 1975 2    50   Input ~ 0
+joyY
+Text Notes 6075 750  0    118  ~ 24
+MCU
+Text Notes 6225 4975 0    50   ~ 0
+on/off switch
+Text Notes 8800 4975 0    50   ~ 0
+lithium battery 3.7V
+$Comp
+L Device:R R01
+U 1 1 6111EB34
+P 7925 5525
+F 0 "R01" H 7995 5571 50  0000 L CNN
+F 1 "10k" H 7995 5480 50  0000 L CNN
+F 2 "kevin:R_1206_reversible" V 7855 5525 50  0001 C CNN
+F 3 "~" H 7925 5525 50  0001 C CNN
+	1    7925 5525
+	1    0    0    -1  
+$EndComp
+Text GLabel 7925 5675 3    50   Input ~ 0
+batin
+Connection ~ 6600 1675
+Text GLabel 7300 3075 3    50   Input ~ 0
+trackball_detect
+Text GLabel 6600 1975 0    50   Output ~ 0
+trackball_cs
+Text GLabel 6600 1575 0    50   Input ~ 0
+spi_miso
+NoConn ~ 6600 1375
+NoConn ~ 8000 1375
+Text GLabel 7000 3075 3    50   Output ~ 0
+spi_reset
+$Comp
+L power:GND #PWR0112
+U 1 1 611517EC
+P 9050 5575
+F 0 "#PWR0112" H 9050 5325 50  0001 C CNN
+F 1 "GND" V 9055 5447 50  0000 R CNN
+F 2 "" H 9050 5575 50  0001 C CNN
+F 3 "" H 9050 5575 50  0001 C CNN
+	1    9050 5575
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61150920
-P 7400 1600
-F 0 "#FLG0101" H 7400 1675 50  0001 C CNN
-F 1 "PWR_FLAG" H 7400 1773 50  0000 C CNN
-F 2 "" H 7400 1600 50  0001 C CNN
-F 3 "~" H 7400 1600 50  0001 C CNN
-	1    7400 1600
+P 9050 5275
+F 0 "#FLG0101" H 9050 5350 50  0001 C CNN
+F 1 "PWR_FLAG" H 9050 5448 50  0000 C CNN
+F 2 "" H 9050 5275 50  0001 C CNN
+F 3 "~" H 9050 5275 50  0001 C CNN
+	1    9050 5275
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 3075 3    50   Input ~ 0
+eink_busy
+Text GLabel 6600 2175 0    50   Output ~ 0
+eink_dc
+Text GLabel 6600 2075 0    50   Output ~ 0
+eink_cs
+Text Notes 6225 4550 0    118  ~ 24
+Power & reset
+Text Notes 7655 4975 0    50   ~ 0
+reset button
+Text GLabel 8000 1775 2    50   Output ~ 0
+vdd_3v3
+Text GLabel 8000 1675 2    50   Input ~ 0
+reset
+$Comp
+L kevin:nice_nano_v2 U1
+U 1 1 60FB3122
+P 7300 2025
+F 0 "U1" H 7300 2962 60  0000 C CNN
+F 1 "nice_nano" H 7300 2856 60  0000 C CNN
+F 2 "kevin:nice_nano_v2_reversible" V 8350 -475 60  0001 C CNN
+F 3 "" V 8350 -475 60  0001 C CNN
+	1    7300 2025
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
-U 1 1 611517EC
-P 7400 1900
-F 0 "#PWR0112" H 7400 1650 50  0001 C CNN
-F 1 "GND" V 7405 1772 50  0000 R CNN
-F 2 "" H 7400 1900 50  0001 C CNN
-F 3 "" H 7400 1900 50  0001 C CNN
-	1    7400 1900
+L power:GND #PWR0106
+U 1 1 60FFDD6F
+P 6600 1675
+F 0 "#PWR0106" H 6600 1425 50  0001 C CNN
+F 1 "GND" V 6605 1547 50  0000 R CNN
+F 2 "" H 6600 1675 50  0001 C CNN
+F 3 "" H 6600 1675 50  0001 C CNN
+	1    6600 1675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 1775 6600 1675
+Text GLabel 6600 2275 0    50   Output ~ 0
+row0
+Text GLabel 6600 2375 0    50   Output ~ 0
+row1
+Text GLabel 6600 2475 0    50   Output ~ 0
+row2
+Text GLabel 6600 2575 0    50   Output ~ 0
+row3
+Text GLabel 6600 1475 0    50   Output ~ 0
+spi_mosi
+Text GLabel 8000 1475 2    50   Input ~ 0
+batin
+Text GLabel 8000 2575 2    50   Input ~ 0
+col5
+Text GLabel 8000 2475 2    50   Input ~ 0
+col4
+Text GLabel 8000 2375 2    50   Input ~ 0
+col3
+Text GLabel 8000 2275 2    50   Input ~ 0
+col2
+Text GLabel 8000 2175 2    50   Input ~ 0
+col1
+Text GLabel 8000 2075 2    50   Input ~ 0
+col0
+$Comp
+L power:GND #PWR0105
+U 1 1 61000FFE
+P 8000 1575
+F 0 "#PWR0105" H 8000 1325 50  0001 C CNN
+F 1 "GND" V 8005 1447 50  0000 R CNN
+F 2 "" H 8000 1575 50  0001 C CNN
+F 3 "" H 8000 1575 50  0001 C CNN
+	1    8000 1575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW_RST_1
+U 1 1 610096B7
+P 8125 5375
+F 0 "SW_RST_1" H 8125 5660 50  0000 C CNN
+F 1 "SW_Push" H 8125 5569 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 8125 5575 50  0001 C CNN
+F 3 "~" H 8125 5575 50  0001 C CNN
+	1    8125 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6100A999
+P 8325 5375
+F 0 "#PWR0104" H 8325 5125 50  0001 C CNN
+F 1 "GND" V 8330 5247 50  0000 R CNN
+F 2 "" H 8325 5375 50  0001 C CNN
+F 3 "" H 8325 5375 50  0001 C CNN
+	1    8325 5375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6925 5425 6925 5525
+$Comp
+L Switch:SW_SPST SW_IO_1
+U 1 1 611C4D74
+P 6725 5325
+F 0 "SW_IO_1" H 6725 5560 50  0000 C CNN
+F 1 "SW_SPST" H 6725 5469 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 6725 5325 50  0001 C CNN
+F 3 "~" H 6725 5325 50  0001 C CNN
+	1    6725 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6109E23E
+P 6925 5525
+F 0 "#PWR0102" H 6925 5275 50  0001 C CNN
+F 1 "GND" V 6930 5397 50  0000 R CNN
+F 2 "" H 6925 5525 50  0001 C CNN
+F 3 "" H 6925 5525 50  0001 C CNN
+	1    6925 5525
+	0    1    1    0   
+$EndComp
+Text GLabel 6525 5325 0    50   Input ~ 0
+batin
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 6109793D
+P 7125 5325
+F 0 "J1" H 7205 5317 50  0000 L CNN
+F 1 "battery" H 7205 5226 50  0000 L CNN
+F 2 "random-keyboard-parts:JST-SR-3" H 7125 5325 50  0001 C CNN
+F 3 "~" H 7125 5325 50  0001 C CNN
+	1    7125 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 60FE2446
+P 9050 5475
+F 0 "BT1" H 9168 5571 50  0000 L CNN
+F 1 "Battery_Cell" H 9168 5480 50  0000 L CNN
+F 2 "" V 9050 5535 50  0001 C CNN
+F 3 "~" V 9050 5535 50  0001 C CNN
+	1    9050 5475
+	1    0    0    -1  
+$EndComp
+Connection ~ 5025 3325
+Wire Wire Line
+	5875 3325 5875 3125
+Wire Wire Line
+	5025 3325 5875 3325
+Connection ~ 4175 3325
+Wire Wire Line
+	5025 3325 5025 3125
+Wire Wire Line
+	4175 3325 5025 3325
+Wire Wire Line
+	4175 3325 4175 3150
+Wire Wire Line
+	3325 3325 4175 3325
+Wire Wire Line
+	850  3325 3325 3325
+Wire Wire Line
+	3325 2775 4175 2775
+Connection ~ 3325 2775
+Wire Wire Line
+	2625 2575 2625 3150
+Connection ~ 2625 2575
+Connection ~ 2625 2025
+Wire Wire Line
+	2625 2025 2625 2575
+Connection ~ 3475 2575
+Wire Wire Line
+	3475 2575 3475 3150
+Connection ~ 4325 2575
+Wire Wire Line
+	4325 2575 4325 3125
+Connection ~ 5175 2575
+Wire Wire Line
+	5175 2575 5175 3125
+Connection ~ 5025 2775
+Wire Wire Line
+	5875 2775 5875 2575
+Wire Wire Line
+	5025 2775 5875 2775
+Connection ~ 4175 2775
+Wire Wire Line
+	5025 2775 5025 2575
+Wire Wire Line
+	4175 2775 5025 2775
+Wire Wire Line
+	4175 2775 4175 2575
+Connection ~ 2475 2775
+Wire Wire Line
+	3325 2775 3325 2575
+Wire Wire Line
+	2475 2775 3325 2775
+Wire Wire Line
+	2475 2775 2475 2575
+Wire Wire Line
+	1625 2775 2475 2775
+Wire Wire Line
+	850  2775 1625 2775
+Connection ~ 5025 2225
+Wire Wire Line
+	5875 2225 5875 2025
+Wire Wire Line
+	5025 2225 5875 2225
+Connection ~ 4175 2225
+Wire Wire Line
+	5025 2225 5025 2025
+Wire Wire Line
+	4175 2225 5025 2225
+Connection ~ 3325 2225
+Wire Wire Line
+	4175 2225 4175 2025
+Wire Wire Line
+	3325 2225 4175 2225
+Connection ~ 2475 2225
+Wire Wire Line
+	3325 2225 3325 2025
+Wire Wire Line
+	2475 2225 3325 2225
+Connection ~ 1625 2225
+Wire Wire Line
+	2475 2225 2475 2025
+Wire Wire Line
+	1625 2225 2475 2225
+Wire Wire Line
+	1625 2225 1625 2025
+Wire Wire Line
+	850  2225 1625 2225
+Wire Wire Line
+	3325 1675 4175 1675
+Connection ~ 3325 1675
+Wire Wire Line
+	3325 1475 3325 1675
+Wire Wire Line
+	4175 1675 5025 1675
+Connection ~ 4175 1675
+Wire Wire Line
+	850  1675 1625 1675
+Wire Wire Line
+	4175 1475 4175 1675
+Wire Wire Line
+	5025 1675 5875 1675
+Connection ~ 5025 1675
+Wire Wire Line
+	5025 1475 5025 1675
+Wire Wire Line
+	5875 1675 5875 1475
+Connection ~ 2625 1475
+Wire Wire Line
+	2625 1475 2625 1075
+Connection ~ 3475 1475
+Wire Wire Line
+	3475 1075 3475 1475
+Wire Wire Line
+	5175 2025 5175 2575
+Connection ~ 5175 2025
+Wire Wire Line
+	5175 1475 5175 2025
+Connection ~ 5175 1475
+Wire Wire Line
+	2625 1475 2625 2025
+Wire Wire Line
+	3475 2025 3475 2575
+Connection ~ 3475 2025
+Wire Wire Line
+	3475 1475 3475 2025
+Wire Wire Line
+	4325 2025 4325 2575
+Connection ~ 4325 2025
+Wire Wire Line
+	4325 1475 4325 2025
+Connection ~ 4325 1475
+Wire Wire Line
+	4325 1075 4325 1475
+Wire Wire Line
+	5175 1075 5175 1475
+Wire Wire Line
+	1775 2025 1775 2575
+Connection ~ 1775 2025
+Wire Wire Line
+	1775 1475 1775 2025
+Connection ~ 1775 1475
+Wire Wire Line
+	925  2025 925  1475
+Connection ~ 925  2025
+Wire Wire Line
+	925  1475 925  1075
+Connection ~ 925  1475
+Wire Wire Line
+	1775 1075 1775 1475
+Wire Wire Line
+	925  2575 925  2025
+$Comp
+L Device:D D05
+U 1 1 60FCD446
+P 5325 1475
+F 0 "D05" V 5371 1395 50  0000 R CNN
+F 1 "D" V 5280 1395 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 5325 1475 50  0001 C CNN
+F 3 "~" H 5325 1475 50  0001 C CNN
+	1    5325 1475
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 6118F148
+P 5325 3125
+F 0 "D35" V 5371 3045 50  0000 R CNN
+F 1 "D" V 5280 3045 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 5325 3125 50  0001 C CNN
+F 3 "~" H 5325 3125 50  0001 C CNN
+	1    5325 3125
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 61073E4C
+P 1075 2575
+F 0 "D20" V 1121 2495 50  0000 R CNN
+F 1 "D" V 1030 2495 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1075 2575 50  0001 C CNN
+F 3 "~" H 1075 2575 50  0001 C CNN
+	1    1075 2575
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW00
+U 1 1 60FCED7A
+P 1425 1475
+F 0 "SW00" H 1425 1760 50  0000 C CNN
+F 1 "SW_Push" H 1425 1669 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1425 1675 50  0001 C CNN
+F 3 "~" H 1425 1675 50  0001 C CNN
+	1    1425 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D00
+U 1 1 60FEABC8
+P 1075 1475
+F 0 "D00" V 1121 1395 50  0000 R CNN
+F 1 "D" V 1030 1395 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1075 1475 50  0001 C CNN
+F 3 "~" H 1075 1475 50  0001 C CNN
+	1    1075 1475
+	1    0    0    1   
+$EndComp
+Text GLabel 850  2225 0    50   Input ~ 0
+row1
+$Comp
+L Device:D D32
+U 1 1 60FE0325
+P 2775 3150
+F 0 "D32" V 2821 3070 50  0000 R CNN
+F 1 "D" V 2730 3070 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 2775 3150 50  0001 C CNN
+F 3 "~" H 2775 3150 50  0001 C CNN
+	1    2775 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 60FDF5F9
+P 3125 3150
+F 0 "SW32" H 3125 3435 50  0000 C CNN
+F 1 "SW_Push" H 3125 3344 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3125 3350 50  0001 C CNN
+F 3 "~" H 3125 3350 50  0001 C CNN
+	1    3125 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 850  1675 0    50   Input ~ 0
+row0
+$Comp
+L Device:D D33
+U 1 1 61190924
+P 3625 3150
+F 0 "D33" V 3671 3070 50  0000 R CNN
+F 1 "D" V 3580 3070 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 3625 3150 50  0001 C CNN
+F 3 "~" H 3625 3150 50  0001 C CNN
+	1    3625 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 6118FE34
+P 4475 3125
+F 0 "D34" V 4521 3045 50  0000 R CNN
+F 1 "D" V 4430 3045 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 4475 3125 50  0001 C CNN
+F 3 "~" H 4475 3125 50  0001 C CNN
+	1    4475 3125
+	1    0    0    1   
+$EndComp
+Text GLabel 850  3325 0    50   Input ~ 0
+row3
+$Comp
+L Switch:SW_Push SW33
+U 1 1 6118DEA5
+P 3975 3150
+F 0 "SW33" H 3975 3435 50  0000 C CNN
+F 1 "SW_Push" H 3975 3344 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3975 3350 50  0001 C CNN
+F 3 "~" H 3975 3350 50  0001 C CNN
+	1    3975 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 6118D0EA
+P 4825 3125
+F 0 "SW34" H 4825 3410 50  0000 C CNN
+F 1 "SW_Push" H 4825 3319 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4825 3325 50  0001 C CNN
+F 3 "~" H 4825 3325 50  0001 C CNN
+	1    4825 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 6118C26B
+P 5675 3125
+F 0 "SW35" H 5675 3410 50  0000 C CNN
+F 1 "SW_Push" H 5675 3319 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 5675 3325 50  0001 C CNN
+F 3 "~" H 5675 3325 50  0001 C CNN
+	1    5675 3125
+	1    0    0    -1  
+$EndComp
+Text GLabel 850  2775 0    50   Input ~ 0
+row2
+Text GLabel 5175 1075 1    50   Output ~ 0
+col5
+Text GLabel 4325 1075 1    50   Output ~ 0
+col4
+Text GLabel 3475 1075 1    50   Output ~ 0
+col3
+Text GLabel 2625 1075 1    50   Output ~ 0
+col2
+Text GLabel 1775 1075 1    50   Output ~ 0
+col1
+Text GLabel 925  1075 1    50   Output ~ 0
+col0
+$Comp
+L Device:D D21
+U 1 1 61073676
+P 1925 2575
+F 0 "D21" V 1971 2495 50  0000 R CNN
+F 1 "D" V 1880 2495 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1925 2575 50  0001 C CNN
+F 3 "~" H 1925 2575 50  0001 C CNN
+	1    1925 2575
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 61072E11
+P 2775 2575
+F 0 "D22" V 2821 2495 50  0000 R CNN
+F 1 "D" V 2730 2495 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 2775 2575 50  0001 C CNN
+F 3 "~" H 2775 2575 50  0001 C CNN
+	1    2775 2575
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 6107264E
+P 3625 2575
+F 0 "D23" V 3671 2495 50  0000 R CNN
+F 1 "D" V 3580 2495 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 3625 2575 50  0001 C CNN
+F 3 "~" H 3625 2575 50  0001 C CNN
+	1    3625 2575
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 6106199F
+P 4475 2575
+F 0 "D24" V 4521 2495 50  0000 R CNN
+F 1 "D" V 4430 2495 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 4475 2575 50  0001 C CNN
+F 3 "~" H 4475 2575 50  0001 C CNN
+	1    4475 2575
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 6105F45E
+P 5325 2575
+F 0 "D25" V 5371 2495 50  0000 R CNN
+F 1 "D" V 5280 2495 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 5325 2575 50  0001 C CNN
+F 3 "~" H 5325 2575 50  0001 C CNN
+	1    5325 2575
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 6105D1EE
+P 5675 2575
+F 0 "SW25" H 5675 2860 50  0000 C CNN
+F 1 "SW_Push" H 5675 2769 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 5675 2775 50  0001 C CNN
+F 3 "~" H 5675 2775 50  0001 C CNN
+	1    5675 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 6105C8EE
+P 4825 2575
+F 0 "SW24" H 4825 2860 50  0000 C CNN
+F 1 "SW_Push" H 4825 2769 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4825 2775 50  0001 C CNN
+F 3 "~" H 4825 2775 50  0001 C CNN
+	1    4825 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 6105C1FB
+P 3975 2575
+F 0 "SW23" H 3975 2860 50  0000 C CNN
+F 1 "SW_Push" H 3975 2769 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3975 2775 50  0001 C CNN
+F 3 "~" H 3975 2775 50  0001 C CNN
+	1    3975 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 6105BA36
+P 3125 2575
+F 0 "SW22" H 3125 2860 50  0000 C CNN
+F 1 "SW_Push" H 3125 2769 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3125 2775 50  0001 C CNN
+F 3 "~" H 3125 2775 50  0001 C CNN
+	1    3125 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 6105B0B4
+P 2275 2575
+F 0 "SW21" H 2275 2860 50  0000 C CNN
+F 1 "SW_Push" H 2275 2769 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 2275 2775 50  0001 C CNN
+F 3 "~" H 2275 2775 50  0001 C CNN
+	1    2275 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 6105A22C
+P 1425 2575
+F 0 "SW20" H 1425 2860 50  0000 C CNN
+F 1 "SW_Push" H 1425 2769 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1425 2775 50  0001 C CNN
+F 3 "~" H 1425 2775 50  0001 C CNN
+	1    1425 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 61007009
+P 5325 2025
+F 0 "D15" V 5371 1945 50  0000 R CNN
+F 1 "D" V 5280 1945 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 5325 2025 50  0001 C CNN
+F 3 "~" H 5325 2025 50  0001 C CNN
+	1    5325 2025
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 61006AA1
+P 4475 2025
+F 0 "D14" V 4521 1945 50  0000 R CNN
+F 1 "D" V 4430 1945 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 4475 2025 50  0001 C CNN
+F 3 "~" H 4475 2025 50  0001 C CNN
+	1    4475 2025
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 610063B5
+P 3625 2025
+F 0 "D13" V 3671 1945 50  0000 R CNN
+F 1 "D" V 3580 1945 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 3625 2025 50  0001 C CNN
+F 3 "~" H 3625 2025 50  0001 C CNN
+	1    3625 2025
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 61005CE4
+P 2775 2025
+F 0 "D12" V 2821 1945 50  0000 R CNN
+F 1 "D" V 2730 1945 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 2775 2025 50  0001 C CNN
+F 3 "~" H 2775 2025 50  0001 C CNN
+	1    2775 2025
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 61005674
+P 1925 2025
+F 0 "D11" V 1971 1945 50  0000 R CNN
+F 1 "D" V 1880 1945 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1925 2025 50  0001 C CNN
+F 3 "~" H 1925 2025 50  0001 C CNN
+	1    1925 2025
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 61005128
+P 1075 2025
+F 0 "D10" V 1121 1945 50  0000 R CNN
+F 1 "D" V 1030 1945 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1075 2025 50  0001 C CNN
+F 3 "~" H 1075 2025 50  0001 C CNN
+	1    1075 2025
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 610040FF
+P 5675 2025
+F 0 "SW15" H 5675 2310 50  0000 C CNN
+F 1 "SW_Push" H 5675 2219 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 5675 2225 50  0001 C CNN
+F 3 "~" H 5675 2225 50  0001 C CNN
+	1    5675 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 61003B9C
+P 4825 2025
+F 0 "SW14" H 4825 2310 50  0000 C CNN
+F 1 "SW_Push" H 4825 2219 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4825 2225 50  0001 C CNN
+F 3 "~" H 4825 2225 50  0001 C CNN
+	1    4825 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 61003502
+P 3975 2025
+F 0 "SW13" H 3975 2310 50  0000 C CNN
+F 1 "SW_Push" H 3975 2219 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3975 2225 50  0001 C CNN
+F 3 "~" H 3975 2225 50  0001 C CNN
+	1    3975 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 61002ABA
+P 3125 2025
+F 0 "SW12" H 3125 2310 50  0000 C CNN
+F 1 "SW_Push" H 3125 2219 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3125 2225 50  0001 C CNN
+F 3 "~" H 3125 2225 50  0001 C CNN
+	1    3125 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 6100239A
+P 2275 2025
+F 0 "SW11" H 2275 2310 50  0000 C CNN
+F 1 "SW_Push" H 2275 2219 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 2275 2225 50  0001 C CNN
+F 3 "~" H 2275 2225 50  0001 C CNN
+	1    2275 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 60FFF38B
+P 1425 2025
+F 0 "SW10" H 1425 2310 50  0000 C CNN
+F 1 "SW_Push" H 1425 2219 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 1425 2225 50  0001 C CNN
+F 3 "~" H 1425 2225 50  0001 C CNN
+	1    1425 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D01
+U 1 1 60FEA5E2
+P 1925 1475
+F 0 "D01" V 1971 1395 50  0000 R CNN
+F 1 "D" V 1880 1395 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1925 1475 50  0001 C CNN
+F 3 "~" H 1925 1475 50  0001 C CNN
+	1    1925 1475
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D02
+U 1 1 60FE9ED2
+P 2775 1475
+F 0 "D02" V 2821 1395 50  0000 R CNN
+F 1 "D" V 2730 1395 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 2775 1475 50  0001 C CNN
+F 3 "~" H 2775 1475 50  0001 C CNN
+	1    2775 1475
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D03
+U 1 1 60FE9A26
+P 3625 1475
+F 0 "D03" V 3671 1395 50  0000 R CNN
+F 1 "D" V 3580 1395 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 3625 1475 50  0001 C CNN
+F 3 "~" H 3625 1475 50  0001 C CNN
+	1    3625 1475
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D04
+U 1 1 60FE9531
+P 4475 1475
+F 0 "D04" V 4521 1395 50  0000 R CNN
+F 1 "D" V 4430 1395 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 4475 1475 50  0001 C CNN
+F 3 "~" H 4475 1475 50  0001 C CNN
+	1    4475 1475
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW01
+U 1 1 60FD64B7
+P 2275 1475
+F 0 "SW01" H 2275 1760 50  0000 C CNN
+F 1 "SW_Push" H 2275 1669 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 2275 1675 50  0001 C CNN
+F 3 "~" H 2275 1675 50  0001 C CNN
+	1    2275 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW02
+U 1 1 60FD5E8A
+P 3125 1475
+F 0 "SW02" H 3125 1760 50  0000 C CNN
+F 1 "SW_Push" H 3125 1669 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3125 1675 50  0001 C CNN
+F 3 "~" H 3125 1675 50  0001 C CNN
+	1    3125 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW03
+U 1 1 60FD45EB
+P 3975 1475
+F 0 "SW03" H 3975 1760 50  0000 C CNN
+F 1 "SW_Push" H 3975 1669 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 3975 1675 50  0001 C CNN
+F 3 "~" H 3975 1675 50  0001 C CNN
+	1    3975 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW05
+U 1 1 60FD0D14
+P 5675 1475
+F 0 "SW05" H 5675 1760 50  0000 C CNN
+F 1 "SW_Push" H 5675 1669 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 5675 1675 50  0001 C CNN
+F 3 "~" H 5675 1675 50  0001 C CNN
+	1    5675 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW04
+U 1 1 60FD06DC
+P 4825 1475
+F 0 "SW04" H 4825 1760 50  0000 C CNN
+F 1 "SW_Push" H 4825 1669 50  0000 C CNN
+F 2 "kevin:Kailh-PG1350-1u-choc-reversible" H 4825 1675 50  0001 C CNN
+F 3 "~" H 4825 1675 50  0001 C CNN
+	1    4825 1475
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 8 style solid
+	475  3500 6000 3500
+Wire Notes Line width 8 style solid
+	6000 475  6000 7800
+Wire Notes Line width 8 style solid
+	6000 4250 11225 4250
+Text GLabel 4825 6775 2    50   Input ~ 0
+vdd_2v
+Wire Wire Line
+	3600 6875 3600 6700
+Wire Wire Line
+	3400 6875 3400 6700
+Text GLabel 4825 7175 2    50   Input ~ 0
+spi_mosi
+Text GLabel 4825 7075 2    50   Output ~ 0
+spi_miso
+Text GLabel 4825 7275 2    50   Input ~ 0
+spi_clk
+Text GLabel 5300 6975 2    50   Input ~ 0
+trackball_cs
+Text GLabel 4825 7375 2    50   Output ~ 0
+trackball_detect
+NoConn ~ 4825 6675
+NoConn ~ 4825 6875
+Text GLabel 1375 6700 2    50   Output ~ 0
+vdd_3v3
+$Comp
+L power:GND #PWR0116
+U 1 1 626EE7E6
+P 1375 6800
+F 0 "#PWR0116" H 1375 6550 50  0001 C CNN
+F 1 "GND" V 1380 6672 50  0000 R CNN
+F 2 "" H 1375 6800 50  0001 C CNN
+F 3 "" H 1375 6800 50  0001 C CNN
+	1    1375 6800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1375 6900 2    50   Output ~ 0
+spi_mosi
+Text GLabel 1375 7000 2    50   Input ~ 0
+spi_miso
+Text GLabel 1375 7100 2    50   Output ~ 0
+spi_clk
+Text GLabel 1375 7200 2    50   Output ~ 0
+trackball_cs
+Text GLabel 1375 7300 2    50   Output ~ 0
+spi_reset
+Text GLabel 1375 7400 2    50   Input ~ 0
+trackball_detect
+Text GLabel 5300 6675 2    50   Input ~ 0
+vdd_3v3
+Wire Wire Line
+	5225 6675 5300 6675
+$Comp
+L kevin:PMW3360DM-T2QU U3
+U 1 1 6271F268
+P 4375 6925
+F 0 "U3" H 4400 7440 50  0000 C CNN
+F 1 "PMW3360DM-T2QU" H 4400 7349 50  0000 C CNN
+F 2 "kevin:IC_PMW3360DM-T2QU" H 4425 7325 50  0001 C CNN
+F 3 "https://www.epsglobal.com/Media-Library/EPSGlobal/Products/files/pixart/PMW3360DM-T2QU.pdf?ext=.pdf" H 4425 7325 50  0001 C CNN
+	1    4375 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 6272C655
+P 3975 7375
+F 0 "#PWR0117" H 3975 7125 50  0001 C CNN
+F 1 "GND" V 3980 7247 50  0000 R CNN
+F 2 "" H 3975 7375 50  0001 C CNN
+F 3 "" H 3975 7375 50  0001 C CNN
+	1    3975 7375
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 627396F8
+P 3400 6875
+F 0 "#PWR0118" H 3400 6625 50  0001 C CNN
+F 1 "GND" V 3405 6747 50  0000 R CNN
+F 2 "" H 3400 6875 50  0001 C CNN
+F 3 "" H 3400 6875 50  0001 C CNN
+	1    3400 6875
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 61246B03
+P 3500 6700
+F 0 "C20" V 3271 6700 50  0000 C CNN
+F 1 "100nF" V 3362 6700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3500 6700 50  0001 C CNN
+F 3 "~" H 3500 6700 50  0001 C CNN
+	1    3500 6700
+	0    -1   1    0   
+$EndComp
+Text GLabel 4050 3725 0    50   Input ~ 0
+joyX
+Text GLabel 4050 3875 0    50   Output ~ 0
+row4
+Wire Wire Line
+	4050 3725 4050 3800
+Wire Wire Line
+	4050 3800 4200 3800
+Connection ~ 4050 3800
+Wire Wire Line
+	4050 3800 4050 3875
+Text GLabel 4200 3800 2    50   BiDi ~ 0
+joyX_or_row4
+Wire Wire Line
+	3600 6875 3975 6875
+Connection ~ 3400 6875
+Connection ~ 3600 6875
+$Comp
+L Device:C_Small C05
+U 1 1 614E2176
+P 9425 3050
+F 0 "C05" V 9196 3050 50  0000 C CNN
+F 1 "1uF" V 9287 3050 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 9425 3050 50  0001 C CNN
+F 3 "~" H 9425 3050 50  0001 C CNN
+	1    9425 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1625 1475 1625 1675
+Connection ~ 1625 1675
+Wire Wire Line
+	1625 1675 2475 1675
+Wire Wire Line
+	2475 1475 2475 1675
+Connection ~ 2475 1675
+Wire Wire Line
+	2475 1675 3325 1675
+Text GLabel 10075 5350 0    50   Input ~ 0
+vdd_3v3
+Wire Notes Line
+	475  5775 6000 5775
+Text Notes 625  6075 0    79   ~ 16
+Trackball (linked by pogo connector)
+Text GLabel 775  4650 1    50   Output ~ 0
+col0
+Text GLabel 2550 4650 1    50   Output ~ 0
+col4
+Text GLabel 2150 5100 2    50   Input ~ 0
+row4
+Text GLabel 1275 4650 1    50   Output ~ 0
+col2
+Text GLabel 1025 4650 1    50   Output ~ 0
+col1
+Text GLabel 2300 4650 1    50   Output ~ 0
+col3
+$Comp
+L Device:D D40
+U 1 1 612CAC84
+P 775 4800
+F 0 "D40" V 821 4720 50  0000 R CNN
+F 1 "D" V 730 4720 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 775 4800 50  0001 C CNN
+F 3 "~" H 775 4800 50  0001 C CNN
+	1    775  4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 612EB360
+P 1025 4800
+F 0 "D41" V 1071 4720 50  0000 R CNN
+F 1 "D" V 980 4720 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1025 4800 50  0001 C CNN
+F 3 "~" H 1025 4800 50  0001 C CNN
+	1    1025 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 612EB815
+P 1275 4800
+F 0 "D42" V 1321 4720 50  0000 R CNN
+F 1 "D" V 1230 4720 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 1275 4800 50  0001 C CNN
+F 3 "~" H 1275 4800 50  0001 C CNN
+	1    1275 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 61310B24
+P 2300 4800
+F 0 "D43" V 2346 4720 50  0000 R CNN
+F 1 "D" V 2255 4720 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 2300 4800 50  0001 C CNN
+F 3 "~" H 2300 4800 50  0001 C CNN
+	1    2300 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 61311021
+P 2550 4800
+F 0 "D44" V 2596 4720 50  0000 R CNN
+F 1 "D" V 2505 4720 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 2550 4800 50  0001 C CNN
+F 3 "~" H 2550 4800 50  0001 C CNN
+	1    2550 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 4950 1450 4950
+Wire Wire Line
+	1025 4950 1025 5100
+Wire Wire Line
+	1025 5100 1425 5100
+Wire Wire Line
+	775  4950 775  5250
+Wire Wire Line
+	775  5250 1450 5250
+Wire Wire Line
+	2000 5250 2550 5250
+Wire Wire Line
+	2550 5250 2550 4950
+Wire Wire Line
+	2000 4950 2300 4950
+Wire Wire Line
+	2025 5100 2150 5100
+$Comp
+L kevin:SW_SKRH-4dir-push SW_4dir1
+U 1 1 611D4B75
+P 1725 5100
+F 0 "SW_4dir1" H 1725 5475 50  0000 C CNN
+F 1 "SW_4dir-push" H 1725 5384 50  0000 C CNN
+F 2 "" H 1625 5700 50  0001 C CNN
+F 3 "https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhade010.html" H 1625 5700 50  0001 C CNN
+	1    1725 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 6116908D
-P 10900 750
-F 0 "#PWR0113" H 10900 500 50  0001 C CNN
-F 1 "GND" V 10905 622 50  0000 R CNN
-F 2 "" H 10900 750 50  0001 C CNN
-F 3 "" H 10900 750 50  0001 C CNN
-	1    10900 750 
+P 6420 6175
+F 0 "#PWR0113" H 6420 5925 50  0001 C CNN
+F 1 "GND" V 6425 6047 50  0000 R CNN
+F 2 "" H 6420 6175 50  0001 C CNN
+F 3 "" H 6420 6175 50  0001 C CNN
+	1    6420 6175
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61169097
-P 10900 750
-F 0 "#FLG0102" H 10900 825 50  0001 C CNN
-F 1 "PWR_FLAG" H 10900 923 50  0000 C CNN
-F 2 "" H 10900 750 50  0001 C CNN
-F 3 "~" H 10900 750 50  0001 C CNN
-	1    10900 750 
+P 6420 6175
+F 0 "#FLG0102" H 6420 6250 50  0001 C CNN
+F 1 "PWR_FLAG" H 6420 6348 50  0000 C CNN
+F 2 "" H 6420 6175 50  0001 C CNN
+F 3 "~" H 6420 6175 50  0001 C CNN
+	1    6420 6175
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 5150 0    50   Input ~ 0
-eink_reset
-Text GLabel 9000 2050 0    50   Input ~ 0
-eink_reset
-NoConn ~ 10400 1950
-NoConn ~ 9000 1950
+Text Notes 11875 650  0    118  ~ 24
+Tmp (to be removed)
+Wire Notes Line width 8 style solid
+	8625 475  8625 4250
+Wire Notes Line
+	8675 4250 8700 4250
+Text Notes 550  750  0    118  ~ 24
+Matrix
+Text Notes 8725 1100 0    39   ~ 0
+https://www.waveshare.com/w/upload/2/2b/1.02inch-e-Paper_Specification.pdf
+Connection ~ 1625 2775
+Wire Wire Line
+	1625 2575 1625 2775
+Connection ~ 3325 3325
+Wire Wire Line
+	3325 3150 3325 3325
+Text Notes 9850 2100 0    39   Italic 0
+4-line SPI
+Text GLabel 7850 5375 0    50   Output ~ 0
+reset
+Wire Wire Line
+	7850 5375 7925 5375
+Connection ~ 7925 5375
+$Comp
+L Device:R R02
+U 1 1 615B2052
+P 10200 1575
+F 0 "R02" H 10270 1621 50  0000 L CNN
+F 1 "10k" H 10270 1530 50  0000 L CNN
+F 2 "kevin:R_1206_reversible" V 10130 1575 50  0001 C CNN
+F 3 "~" H 10200 1575 50  0001 C CNN
+	1    10200 1575
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10750 1525 0    50   Input ~ 0
+spi_mosi
+Wire Wire Line
+	10200 1425 10750 1425
+Wire Wire Line
+	10200 1725 10750 1725
+Wire Wire Line
+	10150 1725 10200 1725
+Connection ~ 10200 1725
+Wire Wire Line
+	10275 2125 10750 2125
+Wire Wire Line
+	10275 3925 10275 4025
+Connection ~ 10275 4025
+Wire Wire Line
+	10275 4025 10275 4125
+Wire Wire Line
+	10475 3925 10750 3925
+Wire Wire Line
+	10475 4125 10750 4125
+Wire Wire Line
+	10550 4025 10275 4025
+Wire Wire Line
+	10550 3725 10550 3825
+Wire Wire Line
+	10750 3525 10475 3525
+Wire Wire Line
+	10275 3525 10275 3625
+Wire Wire Line
+	10550 3325 10550 3425
+Wire Wire Line
+	10550 3425 10750 3425
+Wire Wire Line
+	10275 3625 10750 3625
+Wire Wire Line
+	10550 3825 10750 3825
+$Comp
+L Device:C_Small C14
+U 1 1 61666227
+P 10650 3725
+F 0 "C14" V 10421 3725 50  0000 C CNN
+F 1 "2.2uF" V 10512 3725 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10650 3725 50  0001 C CNN
+F 3 "~" H 10650 3725 50  0001 C CNN
+	1    10650 3725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10750 3125 10475 3125
+Wire Wire Line
+	10275 3125 10275 3225
+Wire Wire Line
+	10275 3225 10750 3225
+Wire Wire Line
+	10550 2925 10550 3025
+Wire Wire Line
+	10550 3025 10750 3025
+Wire Wire Line
+	10475 2725 10750 2725
+Wire Wire Line
+	10275 2725 10275 2825
+Wire Wire Line
+	10275 2825 10750 2825
+Wire Wire Line
+	10750 2425 10475 2425
+Wire Wire Line
+	10550 2325 10275 2325
+Wire Wire Line
+	10550 2525 10275 2525
+Wire Wire Line
+	10275 2325 10275 2425
+Wire Wire Line
+	9325 2425 10275 2425
+Connection ~ 10275 2425
+Wire Wire Line
+	10275 2425 10275 2525
+Wire Wire Line
+	9325 2225 9325 2425
+Connection ~ 9325 2425
+Wire Wire Line
+	9325 1900 9325 2225
+Connection ~ 9325 2225
+Wire Wire Line
+	9525 2225 9525 1900
+Wire Wire Line
+	9525 2225 10750 2225
+Connection ~ 9525 2225
+Wire Wire Line
+	9625 2625 10750 2625
+Wire Wire Line
+	9325 2425 9325 2625
+Wire Wire Line
+	9325 2625 9325 3050
+Connection ~ 9325 2625
+$Comp
+L Device:C_Small C09
+U 1 1 61667FE8
+P 10375 2725
+F 0 "C09" V 10146 2725 50  0000 C CNN
+F 1 "1uF" V 10237 2725 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10375 2725 50  0001 C CNN
+F 3 "~" H 10375 2725 50  0001 C CNN
+	1    10375 2725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9525 3050 9625 3050
+Wire Wire Line
+	9625 3050 9625 2625
+Connection ~ 9625 2625
+Connection ~ 5225 6975
+Wire Wire Line
+	5225 6975 5300 6975
+Wire Wire Line
+	4825 6975 5225 6975
+$Comp
+L Device:R R23
+U 1 1 615F53A5
+P 5225 6825
+F 0 "R23" H 5295 6871 50  0000 L CNN
+F 1 "10k" H 5295 6780 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5155 6825 50  0001 C CNN
+F 3 "~" H 5225 6825 50  0001 C CNN
+	1    5225 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C02
+U 1 1 61488010
+P 10075 1325
+F 0 "C02" H 10167 1371 50  0000 L CNN
+F 1 "4.7uF" H 10167 1280 50  0000 L CNN
+F 2 "kevin:C_0805_reversible" H 10075 1325 50  0001 C CNN
+F 3 "~" H 10075 1325 50  0001 C CNN
+	1    10075 1325
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C01
+U 1 1 61488B73
+P 9700 1325
+F 0 "C01" H 9792 1371 50  0000 L CNN
+F 1 "0.1uF" H 9792 1280 50  0000 L CNN
+F 2 "kevin:C_0805_reversible" H 9700 1325 50  0001 C CNN
+F 3 "~" H 9700 1325 50  0001 C CNN
+	1    9700 1325
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9375 1425 0    50   Input ~ 0
+vdd_3v3
+Wire Wire Line
+	9375 1425 9700 1425
+Connection ~ 10200 1425
+Connection ~ 9700 1425
+Wire Wire Line
+	9700 1425 10075 1425
+Connection ~ 10075 1425
+Wire Wire Line
+	10075 1425 10200 1425
+Wire Wire Line
+	9700 1225 10075 1225
+Connection ~ 9700 1225
+$Comp
+L power:GND #PWR0108
+U 1 1 6147F688
+P 9375 1225
+F 0 "#PWR0108" H 9375 975 50  0001 C CNN
+F 1 "GND" V 9380 1097 50  0000 R CNN
+F 2 "" H 9375 1225 50  0001 C CNN
+F 3 "" H 9375 1225 50  0001 C CNN
+	1    9375 1225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9375 1225 9700 1225
 $EndSCHEMATC
