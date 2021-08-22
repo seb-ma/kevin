@@ -14,10 +14,10 @@ Comment3 "- with e-ink"
 Comment4 "Half part of split keyboard"
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x08 J03
+L Connector_Generic:Conn_01x08 J903
 U 1 1 60FE5604
 P 13095 1410
-F 0 "J03" H 13175 1402 50  0000 L CNN
+F 0 "J903" H 13175 1402 50  0000 L CNN
 F 1 "eink" H 13175 1311 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 13095 1410 50  0001 C CNN
 F 3 "~" H 13095 1410 50  0001 C CNN
@@ -54,10 +54,10 @@ $EndComp
 Wire Wire Line
 	12220 1110 12295 1110
 $Comp
-L Device:R R002
+L Device:R R902
 U 1 1 614C56E7
 P 12295 1310
-F 0 "R002" H 12365 1356 50  0000 L CNN
+F 0 "R902" H 12365 1356 50  0000 L CNN
 F 1 "10k" H 12365 1265 50  0000 L CNN
 F 2 "kevin:R_1206_reversible" V 12225 1310 50  0001 C CNN
 F 3 "~" H 12295 1310 50  0001 C CNN
@@ -170,7 +170,7 @@ U 1 1 611AB542
 P 3475 4625
 F 0 "J2" H 3555 4617 50  0000 L CNN
 F 1 "joystick_analogic" H 3555 4526 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Molex_200528-0050_1x05-1MP_P1.00mm_Horizontal" H 3475 4625 50  0001 C CNN
+F 2 "Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 3475 4625 50  0001 C CNN
 F 3 "~" H 3475 4625 50  0001 C CNN
 	1    3475 4625
 	1    0    0    -1  
@@ -191,7 +191,7 @@ U 1 1 613FE89D
 P 10950 2625
 F 0 "J3" H 11030 2617 50  0000 L CNN
 F 1 "eink" H 11030 2526 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" H 10950 2625 50  0001 C CNN
+F 2 "kevin:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal_reversible" H 10950 2625 50  0001 C CNN
 F 3 "~" H 10950 2625 50  0001 C CNN
 	1    10950 2625
 	1    0    0    -1  
@@ -252,14 +252,14 @@ F 3 "~" H 9425 2225 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky DS01
+L Device:D_Schottky_Small DS01
 U 1 1 614E26FF
-P 9475 2625
-F 0 "DS01" V 9521 2545 50  0000 R CNN
-F 1 "D_Sch" V 9430 2545 50  0000 R CNN
-F 2 "kevin:D_SOD-123_reversible" H 9475 2625 50  0001 C CNN
-F 3 "~" H 9475 2625 50  0001 C CNN
-	1    9475 2625
+P 9425 2625
+F 0 "DS01" V 9471 2545 50  0000 R CNN
+F 1 "D_Sch" V 9380 2545 50  0000 R CNN
+F 2 "kevin:D_SOD-123_reversible" H 9425 2625 50  0001 C CNN
+F 3 "~" H 9425 2625 50  0001 C CNN
+	1    9425 2625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -285,10 +285,10 @@ F 3 "" H 10275 2125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C07
+L Device:C_Small C06
 U 1 1 61669C1A
 P 10375 2425
-F 0 "C07" V 10146 2425 50  0000 C CNN
+F 0 "C06" V 10146 2425 50  0000 C CNN
 F 1 "1uF" V 10237 2425 50  0000 C CNN
 F 2 "kevin:C_0805_reversible" H 10375 2425 50  0001 C CNN
 F 3 "~" H 10375 2425 50  0001 C CNN
@@ -296,10 +296,10 @@ F 3 "~" H 10375 2425 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C06
+L Device:C_Small C05
 U 1 1 61669F0B
 P 10650 2325
-F 0 "C06" V 10421 2325 50  0000 C CNN
+F 0 "C05" V 10421 2325 50  0000 C CNN
 F 1 "1uF" V 10512 2325 50  0000 C CNN
 F 2 "kevin:C_0805_reversible" H 10650 2325 50  0001 C CNN
 F 3 "~" H 10650 2325 50  0001 C CNN
@@ -307,10 +307,10 @@ F 3 "~" H 10650 2325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C08
+L Device:C_Small C07
 U 1 1 616697D2
 P 10650 2525
-F 0 "C08" V 10421 2525 50  0000 C CNN
+F 0 "C07" V 10421 2525 50  0000 C CNN
 F 1 "1uF" V 10512 2525 50  0000 C CNN
 F 2 "kevin:C_0805_reversible" H 10650 2525 50  0001 C CNN
 F 3 "~" H 10650 2525 50  0001 C CNN
@@ -436,19 +436,6 @@ Text Notes 6225 4975 0    50   ~ 0
 on/off switch
 Text Notes 8800 4975 0    50   ~ 0
 lithium battery 3.7V
-$Comp
-L Device:R R01
-U 1 1 6111EB34
-P 7925 5525
-F 0 "R01" H 7995 5571 50  0000 L CNN
-F 1 "10k" H 7995 5480 50  0000 L CNN
-F 2 "kevin:R_1206_reversible" V 7855 5525 50  0001 C CNN
-F 3 "~" H 7925 5525 50  0001 C CNN
-	1    7925 5525
-	1    0    0    -1  
-$EndComp
-Text GLabel 7925 5675 3    50   Input ~ 0
-batin
 Connection ~ 6600 1675
 Text GLabel 7300 3075 3    50   Input ~ 0
 trackball_detect
@@ -532,18 +519,6 @@ Text GLabel 6600 1475 0    50   Output ~ 0
 spi_mosi
 Text GLabel 8000 1475 2    50   Input ~ 0
 batin
-Text GLabel 8000 2575 2    50   Input ~ 0
-col5
-Text GLabel 8000 2475 2    50   Input ~ 0
-col4
-Text GLabel 8000 2375 2    50   Input ~ 0
-col3
-Text GLabel 8000 2275 2    50   Input ~ 0
-col2
-Text GLabel 8000 2175 2    50   Input ~ 0
-col1
-Text GLabel 8000 2075 2    50   Input ~ 0
-col0
 $Comp
 L power:GND #PWR0105
 U 1 1 61000FFE
@@ -561,7 +536,7 @@ U 1 1 610096B7
 P 8125 5375
 F 0 "SW_RST_1" H 8125 5660 50  0000 C CNN
 F 1 "SW_Push" H 8125 5569 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 8125 5575 50  0001 C CNN
+F 2 "kevin:SKQGADE010_reversible" H 8125 5575 50  0001 C CNN
 F 3 "~" H 8125 5575 50  0001 C CNN
 	1    8125 5375
 	1    0    0    -1  
@@ -1394,15 +1369,15 @@ Wire Wire Line
 Connection ~ 3400 6875
 Connection ~ 3600 6875
 $Comp
-L Device:C_Small C05
+L Device:C_Small C08
 U 1 1 614E2176
-P 9425 3050
-F 0 "C05" V 9196 3050 50  0000 C CNN
-F 1 "1uF" V 9287 3050 50  0000 C CNN
-F 2 "kevin:C_0805_reversible" H 9425 3050 50  0001 C CNN
-F 3 "~" H 9425 3050 50  0001 C CNN
-	1    9425 3050
-	0    -1   -1   0   
+P 9425 3225
+F 0 "C08" V 9196 3225 50  0000 C CNN
+F 1 "1uF" V 9287 3225 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 9425 3225 50  0001 C CNN
+F 3 "~" H 9425 3225 50  0001 C CNN
+	1    9425 3225
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1625 1475 1625 1675
@@ -1556,11 +1531,8 @@ Wire Wire Line
 	3325 3150 3325 3325
 Text Notes 9850 2100 0    39   Italic 0
 4-line SPI
-Text GLabel 7850 5375 0    50   Output ~ 0
+Text GLabel 7925 5375 0    50   Output ~ 0
 reset
-Wire Wire Line
-	7850 5375 7925 5375
-Connection ~ 7925 5375
 $Comp
 L Device:R R02
 U 1 1 615B2052
@@ -1659,13 +1631,6 @@ Wire Wire Line
 Wire Wire Line
 	9525 2225 10750 2225
 Connection ~ 9525 2225
-Wire Wire Line
-	9625 2625 10750 2625
-Wire Wire Line
-	9325 2425 9325 2625
-Wire Wire Line
-	9325 2625 9325 3050
-Connection ~ 9325 2625
 $Comp
 L Device:C_Small C09
 U 1 1 61667FE8
@@ -1677,11 +1642,6 @@ F 3 "~" H 10375 2725 50  0001 C CNN
 	1    10375 2725
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9525 3050 9625 3050
-Wire Wire Line
-	9625 3050 9625 2625
-Connection ~ 9625 2625
 Connection ~ 5225 6975
 Wire Wire Line
 	5225 6975 5300 6975
@@ -1747,4 +1707,26 @@ F 3 "" H 9375 1225 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9375 1225 9700 1225
+Wire Wire Line
+	9325 2425 9325 2625
+Connection ~ 9325 2625
+Wire Wire Line
+	9325 2625 9325 3225
+Wire Wire Line
+	9525 2625 9525 3225
+Wire Wire Line
+	9525 2625 10750 2625
+Connection ~ 9525 2625
+Text GLabel 8000 2075 2    50   Input ~ 0
+col0
+Text GLabel 8000 2175 2    50   Input ~ 0
+col1
+Text GLabel 8000 2575 2    50   Input ~ 0
+col2
+Text GLabel 8000 2475 2    50   Input ~ 0
+col3
+Text GLabel 8000 2375 2    50   Input ~ 0
+col4
+Text GLabel 8000 2275 2    50   Input ~ 0
+col5
 $EndSCHEMATC
