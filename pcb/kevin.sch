@@ -13,69 +13,6 @@ Comment2 "- with joystick either analog or numeric"
 Comment3 "- with e-ink"
 Comment4 "Half part of split keyboard"
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x08 J903
-U 1 1 60FE5604
-P 13095 1410
-F 0 "J903" H 13175 1402 50  0000 L CNN
-F 1 "eink" H 13175 1311 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 13095 1410 50  0001 C CNN
-F 3 "~" H 13095 1410 50  0001 C CNN
-	1    13095 1410
-	1    0    0    -1  
-$EndComp
-Text GLabel 12895 1310 0    50   Input ~ 0
-spi_mosi
-Text GLabel 12895 1410 0    50   Input ~ 0
-spi_clk
-Text GLabel 12895 1610 0    50   Input ~ 0
-eink_dc
-Text GLabel 12895 1810 0    50   Output ~ 0
-eink_busy
-Text GLabel 12220 1110 0    50   Input ~ 0
-vdd_3v3
-Text Notes 12125 890  0    50   ~ 0
-e-ink with built-in driver
-Text GLabel 12220 1510 0    50   Input ~ 0
-eink_cs
-Text GLabel 12895 1710 0    50   Input ~ 0
-spi_reset
-$Comp
-L power:GND #PWR0103
-U 1 1 60FE810D
-P 12895 1210
-F 0 "#PWR0103" H 12895 960 50  0001 C CNN
-F 1 "GND" V 12900 1082 50  0000 R CNN
-F 2 "" H 12895 1210 50  0001 C CNN
-F 3 "" H 12895 1210 50  0001 C CNN
-	1    12895 1210
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12220 1110 12295 1110
-$Comp
-L Device:R R902
-U 1 1 614C56E7
-P 12295 1310
-F 0 "R902" H 12365 1356 50  0000 L CNN
-F 1 "10k" H 12365 1265 50  0000 L CNN
-F 2 "kevin:R_1206_reversible" V 12225 1310 50  0001 C CNN
-F 3 "~" H 12295 1310 50  0001 C CNN
-	1    12295 1310
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12220 1510 12295 1510
-Wire Wire Line
-	12295 1460 12295 1510
-Connection ~ 12295 1510
-Wire Wire Line
-	12295 1510 12895 1510
-Wire Wire Line
-	12295 1160 12295 1110
-Connection ~ 12295 1110
-Wire Wire Line
-	12295 1110 12895 1110
 Text GLabel 4950 5225 0    50   Output ~ 0
 trackball_detect
 Text GLabel 4950 5125 0    50   Input ~ 0
@@ -1486,7 +1423,7 @@ U 1 1 611D4B75
 P 1725 5100
 F 0 "SW_4dir1" H 1725 5475 50  0000 C CNN
 F 1 "SW_4dir-push" H 1725 5384 50  0000 C CNN
-F 2 "" H 1625 5700 50  0001 C CNN
+F 2 "kevin:Alpsalpine skrhade010" H 1625 5700 50  0001 C CNN
 F 3 "https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhade010.html" H 1625 5700 50  0001 C CNN
 	1    1725 5100
 	1    0    0    -1  
@@ -1513,8 +1450,6 @@ F 3 "~" H 6420 6175 50  0001 C CNN
 	1    6420 6175
 	1    0    0    -1  
 $EndComp
-Text Notes 11875 650  0    118  ~ 24
-Tmp (to be removed)
 Wire Notes Line width 8 style solid
 	8625 475  8625 4250
 Wire Notes Line
@@ -1721,12 +1656,12 @@ Text GLabel 8000 2075 2    50   Input ~ 0
 col0
 Text GLabel 8000 2175 2    50   Input ~ 0
 col1
-Text GLabel 8000 2575 2    50   Input ~ 0
-col2
-Text GLabel 8000 2475 2    50   Input ~ 0
-col3
-Text GLabel 8000 2375 2    50   Input ~ 0
-col4
 Text GLabel 8000 2275 2    50   Input ~ 0
+col2
+Text GLabel 8000 2375 2    50   Input ~ 0
+col3
+Text GLabel 8000 2475 2    50   Input ~ 0
+col4
+Text GLabel 8000 2575 2    50   Input ~ 0
 col5
 $EndSCHEMATC
