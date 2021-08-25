@@ -54,7 +54,6 @@ Work in progress:
 
 - PCB
   - Components choice
-
 - Case
   - Design
 
@@ -70,9 +69,10 @@ ToDo:
 - Firmware
   - ZMK code
 
-## Testimonials
+## Resources
 
 Lots of amazing projects and guides exist and are a huge inspiration to this project.
+
 Thanks to them, kevin was born.
 
 - [Corne keyboard](https://github.com/foostan/crkbd/)
