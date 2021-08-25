@@ -107,7 +107,7 @@ U 1 1 611AB542
 P 3475 4625
 F 0 "J2" H 3555 4617 50  0000 L CNN
 F 1 "joystick_analogic" H 3555 4526 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 3475 4625 50  0001 C CNN
+F 2 "kevin:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal_reversible" H 3475 4625 50  0001 C CNN
 F 3 "~" H 3475 4625 50  0001 C CNN
 	1    3475 4625
 	1    0    0    -1  
@@ -497,7 +497,7 @@ U 1 1 611C4D74
 P 6725 5325
 F 0 "SW_IO_1" H 6725 5560 50  0000 C CNN
 F 1 "SW_SPST" H 6725 5469 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 6725 5325 50  0001 C CNN
+F 2 "kevin:SW_SPDT_CK-JS102011SAQN_reversible" H 6725 5325 50  0001 C CNN
 F 3 "~" H 6725 5325 50  0001 C CNN
 	1    6725 5325
 	1    0    0    -1  
@@ -521,7 +521,7 @@ U 1 1 6109793D
 P 7125 5325
 F 0 "J1" H 7205 5317 50  0000 L CNN
 F 1 "battery" H 7205 5226 50  0000 L CNN
-F 2 "random-keyboard-parts:JST-SR-3" H 7125 5325 50  0001 C CNN
+F 2 "kevin:JST-SR-3_reversible" H 7125 5325 50  0001 C CNN
 F 3 "~" H 7125 5325 50  0001 C CNN
 	1    7125 5325
 	1    0    0    -1  
@@ -1423,7 +1423,7 @@ U 1 1 611D4B75
 P 1725 5100
 F 0 "SW_4dir1" H 1725 5475 50  0000 C CNN
 F 1 "SW_4dir-push" H 1725 5384 50  0000 C CNN
-F 2 "kevin:Alpsalpine skrhade010" H 1625 5700 50  0001 C CNN
+F 2 "kevin:Alpsalpine_skrhade010_reversible" H 1625 5700 50  0001 C CNN
 F 3 "https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhade010.html" H 1625 5700 50  0001 C CNN
 	1    1725 5100
 	1    0    0    -1  
