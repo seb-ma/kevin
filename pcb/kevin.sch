@@ -120,8 +120,6 @@ Text Notes 725  4300 0    50   ~ 0
 numeric joystick
 Text Notes 725  6550 0    50   ~ 0
 connector (pogo)\nfrom main pcb -->
-Text Notes 9935 4965 0    50   Italic 0
-(used for PMW3360)
 $Comp
 L Connector_Generic:Conn_01x30 J3
 U 1 1 613FE89D
@@ -298,17 +296,6 @@ F 3 "~" H 10375 4125 50  0001 C CNN
 	1    10375 4125
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C12
-U 1 1 61667101
-P 10650 3325
-F 0 "C12" V 10421 3325 50  0000 C CNN
-F 1 "1uF" V 10512 3325 50  0000 C CNN
-F 2 "kevin:C_0805_reversible" H 10650 3325 50  0001 C CNN
-F 3 "~" H 10650 3325 50  0001 C CNN
-	1    10650 3325
-	0    1    1    0   
-$EndComp
 Text GLabel 10750 1825 0    50   Input ~ 0
 eink_dc
 $Comp
@@ -335,32 +322,6 @@ F 3 "~" H 10375 3525 50  0001 C CNN
 $EndComp
 Text Notes 8700 725  0    118  ~ 24
 Display
-Text Notes 9750 4975 0    50   ~ 0
-LDO
-$Comp
-L power:GND #PWR0114
-U 1 1 611D91CD
-P 10375 5650
-F 0 "#PWR0114" H 10375 5400 50  0001 C CNN
-F 1 "GND" V 10380 5522 50  0000 R CNN
-F 2 "" H 10375 5650 50  0001 C CNN
-F 3 "" H 10375 5650 50  0001 C CNN
-	1    10375 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 10675 5350 2    50   Output ~ 0
-vdd_2v
-$Comp
-L Regulator_Linear:XC6206PxxxMR U2
-U 1 1 611AA876
-P 10375 5350
-F 0 "U2" H 10375 5592 50  0000 C CNN
-F 1 "XC6206P202MR-G" H 10375 5501 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10375 5575 50  0001 C CIN
-F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H 10375 5350 50  0001 C CNN
-	1    10375 5350
-	1    0    0    -1  
-$EndComp
 Text GLabel 6600 1875 0    50   Output ~ 0
 spi_clk
 Text GLabel 8000 1875 2    50   BiDi ~ 0
@@ -371,8 +332,6 @@ Text Notes 6075 750  0    118  ~ 24
 MCU
 Text Notes 6225 4975 0    50   ~ 0
 on/off switch
-Text Notes 8800 4975 0    50   ~ 0
-lithium battery 3.7V
 Connection ~ 6600 1675
 Text GLabel 7300 3075 3    50   Input ~ 0
 trackball_detect
@@ -384,28 +343,6 @@ NoConn ~ 6600 1375
 NoConn ~ 8000 1375
 Text GLabel 7000 3075 3    50   Output ~ 0
 spi_reset
-$Comp
-L power:GND #PWR0112
-U 1 1 611517EC
-P 9050 5575
-F 0 "#PWR0112" H 9050 5325 50  0001 C CNN
-F 1 "GND" V 9055 5447 50  0000 R CNN
-F 2 "" H 9050 5575 50  0001 C CNN
-F 3 "" H 9050 5575 50  0001 C CNN
-	1    9050 5575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 61150920
-P 9050 5275
-F 0 "#FLG0101" H 9050 5350 50  0001 C CNN
-F 1 "PWR_FLAG" H 9050 5448 50  0000 C CNN
-F 2 "" H 9050 5275 50  0001 C CNN
-F 3 "~" H 9050 5275 50  0001 C CNN
-	1    9050 5275
-	1    0    0    -1  
-$EndComp
 Text GLabel 7150 3075 3    50   Input ~ 0
 eink_busy
 Text GLabel 6600 2175 0    50   Output ~ 0
@@ -414,8 +351,6 @@ Text GLabel 6600 2075 0    50   Output ~ 0
 eink_cs
 Text Notes 6225 4550 0    118  ~ 24
 Power & reset
-Text Notes 7655 4975 0    50   ~ 0
-reset button
 Text GLabel 8000 1775 2    50   Output ~ 0
 vdd_3v3
 Text GLabel 8000 1675 2    50   Input ~ 0
@@ -467,28 +402,6 @@ F 3 "" H 8000 1575 50  0001 C CNN
 	1    8000 1575
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_Push SW_RST_1
-U 1 1 610096B7
-P 8125 5375
-F 0 "SW_RST_1" H 8125 5660 50  0000 C CNN
-F 1 "SW_Push" H 8125 5569 50  0000 C CNN
-F 2 "kevin:SKQGADE010_reversible" H 8125 5575 50  0001 C CNN
-F 3 "~" H 8125 5575 50  0001 C CNN
-	1    8125 5375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 6100A999
-P 8325 5375
-F 0 "#PWR0104" H 8325 5125 50  0001 C CNN
-F 1 "GND" V 8330 5247 50  0000 R CNN
-F 2 "" H 8325 5375 50  0001 C CNN
-F 3 "" H 8325 5375 50  0001 C CNN
-	1    8325 5375
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6925 5425 6925 5525
 $Comp
@@ -521,20 +434,9 @@ U 1 1 6109793D
 P 7125 5325
 F 0 "J1" H 7205 5317 50  0000 L CNN
 F 1 "battery" H 7205 5226 50  0000 L CNN
-F 2 "kevin:JST-SR-3_reversible" H 7125 5325 50  0001 C CNN
+F 2 "kevin:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal_reversible" H 7125 5325 50  0001 C CNN
 F 3 "~" H 7125 5325 50  0001 C CNN
 	1    7125 5325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 60FE2446
-P 9050 5475
-F 0 "BT1" H 9168 5571 50  0000 L CNN
-F 1 "Battery_Cell" H 9168 5480 50  0000 L CNN
-F 2 "" V 9050 5535 50  0001 C CNN
-F 3 "~" V 9050 5535 50  0001 C CNN
-	1    9050 5475
 	1    0    0    -1  
 $EndComp
 Connection ~ 5025 3325
@@ -1282,7 +1184,7 @@ L Device:C_Small C20
 U 1 1 61246B03
 P 3500 6700
 F 0 "C20" V 3271 6700 50  0000 C CNN
-F 1 "100nF" V 3362 6700 50  0000 C CNN
+F 1 "0.1uF" V 3362 6700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3500 6700 50  0001 C CNN
 F 3 "~" H 3500 6700 50  0001 C CNN
 	1    3500 6700
@@ -1326,8 +1228,6 @@ Wire Wire Line
 Connection ~ 2475 1675
 Wire Wire Line
 	2475 1675 3325 1675
-Text GLabel 10075 5350 0    50   Input ~ 0
-vdd_3v3
 Wire Notes Line
 	475  5775 6000 5775
 Text Notes 625  6075 0    79   ~ 16
@@ -1466,8 +1366,6 @@ Wire Wire Line
 	3325 3150 3325 3325
 Text Notes 9850 2100 0    39   Italic 0
 4-line SPI
-Text GLabel 7925 5375 0    50   Output ~ 0
-reset
 $Comp
 L Device:R R02
 U 1 1 615B2052
@@ -1664,4 +1562,84 @@ Text GLabel 8000 2475 2    50   Input ~ 0
 col4
 Text GLabel 8000 2575 2    50   Input ~ 0
 col5
+$Comp
+L Device:C_Small C12
+U 1 1 61667101
+P 10650 3325
+F 0 "C12" V 10421 3325 50  0000 C CNN
+F 1 "1uF" V 10512 3325 50  0000 C CNN
+F 2 "kevin:C_0805_reversible" H 10650 3325 50  0001 C CNN
+F 3 "~" H 10650 3325 50  0001 C CNN
+	1    10650 3325
+	0    1    1    0   
+$EndComp
+Text Notes 8630 4950 0    50   ~ 0
+reset button
+Text Notes 9910 4940 0    50   Italic 0
+(used for PMW3360)
+Text Notes 9725 4950 0    50   ~ 0
+LDO
+Text Notes 7600 5025 0    50   ~ 0
+lithium battery 3.7V\n(connected to J1)
+$Comp
+L power:GND #PWR0114
+U 1 1 611D91CD
+P 10375 5675
+F 0 "#PWR0114" H 10375 5425 50  0001 C CNN
+F 1 "GND" V 10380 5547 50  0000 R CNN
+F 2 "" H 10375 5675 50  0001 C CNN
+F 3 "" H 10375 5675 50  0001 C CNN
+	1    10375 5675
+	1    0    0    -1  
+$EndComp
+Text GLabel 10675 5375 2    50   Output ~ 0
+vdd_2v
+$Comp
+L Regulator_Linear:XC6206PxxxMR U2
+U 1 1 611AA876
+P 10375 5375
+F 0 "U2" H 10375 5617 50  0000 C CNN
+F 1 "XC6206P202MR-G" H 10375 5526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10375 5600 50  0001 C CIN
+F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H 10375 5375 50  0001 C CNN
+	1    10375 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_RST_1
+U 1 1 610096B7
+P 9100 5375
+F 0 "SW_RST_1" H 9100 5660 50  0000 C CNN
+F 1 "SW_Push" H 9100 5569 50  0000 C CNN
+F 2 "kevin:SKQGADE010_reversible" H 9100 5575 50  0001 C CNN
+F 3 "~" H 9100 5575 50  0001 C CNN
+	1    9100 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6100A999
+P 9300 5375
+F 0 "#PWR0104" H 9300 5125 50  0001 C CNN
+F 1 "GND" V 9305 5247 50  0000 R CNN
+F 2 "" H 9300 5375 50  0001 C CNN
+F 3 "" H 9300 5375 50  0001 C CNN
+	1    9300 5375
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10075 5375 0    50   Input ~ 0
+vdd_3v3
+Text GLabel 8900 5375 0    50   Output ~ 0
+reset
+$Comp
+L kevin:Battery_Cell BT1
+U 1 1 60FE2446
+P 7725 5425
+F 0 "BT1" H 7843 5521 50  0000 L CNN
+F 1 "Battery_Cell" H 7843 5430 50  0000 L CNN
+F 2 "kevin:Battery_holder_reversible" V 7725 5485 50  0001 C CNN
+F 3 "~" V 7725 5485 50  0001 C CNN
+	1    7725 5425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
