@@ -302,7 +302,7 @@ ENDDEF
 DEF kevin_PMW3360DM-T2QU U 0 40 Y Y 1 F N
 F0 "U" 0 500 50 H V C CNN
 F1 "kevin_PMW3360DM-T2QU" 0 400 50 H V C CNN
-F2 "kevin:IC_PMW3360DM-T2QU" 50 400 50 H I C CNN
+F2 "kevin:PMW3360DM-T2QU" 50 400 50 H I C CNN
 F3 "" 50 400 50 H I C CNN
 DRAW
 S -300 350 350 -550 0 1 0 f
@@ -350,6 +350,18 @@ X D 6 275 -150 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# kevin_eink
+#
+DEF kevin_eink U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "kevin_eink" 0 -50 50 H V C CNN
+F2 "kevin:Waveshare_eink_1.02 holder_reversible" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -150 200 150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # kevin_nice_nano_v2
 #
 DEF kevin_nice_nano_v2 U 0 40 Y Y 1 F N
@@ -358,7 +370,7 @@ F1 "kevin_nice_nano_v2" 0 800 60 H V C CNN
 F2 "kevin:nice_nano_v2_reversible" 1050 -2500 60 V I C CNN
 F3 "" 1050 -2500 60 V I C CNN
 DRAW
-S -500 -850 500 850 0 1 0 N
+S -500 -850 500 850 0 1 0 f
 X GND 1 -700 650 200 R 50 50 1 1 I
 X P1.00 10 -700 -250 200 R 50 50 1 1 B
 X P0.11 11 -700 -350 200 R 50 50 1 1 B

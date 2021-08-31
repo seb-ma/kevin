@@ -89,12 +89,13 @@ ToDo:
 |5|SMD 0805|Capacitor 0.1uF||
 |49|SMD SOD-123|Diode 1N4148||
 |2|SMD SOD-123|B5819WSL-TP|Schottky diode||
-|2|-|FH12-30S-0.5SH(1)(98)|Connector 30-pin 0.50mm Horizontal||
-|2|-|Waveshare 17574|e-ink 1.02|https://www.waveshare.com/w/upload/2/2b/1.02inch-e-Paper_Specification.pdf|
-|2|-|SKQGADE010|Reset button|https://tech.alpsalpine.com/prod/e/html/tact/surfacemount/skqg/skqgade010.html|
-|2|-|JS102011SAQN|On/off slide switch|https://www.mouser.fr/ProductDetail/CK/JS102011SAQN?qs=%2Fha2pyFaduiV2nqaS%252BU8Q9wtp%2FpUP0ZhxQ7YjhJWd98Vv%2FajANoXBg%3D%3D|
-|2|-|810-22-008-40-001101|Spring Loaded Connectors 8-pin|https://www.mouser.fr/ProductDetail/Mill-Max/810-22-008-40-001101?qs=XvIqXwAF0edJjs2Rmv%2FtNw%3D%3D|
+|2|-|TODO according to Contact Location: FH12-30S-0.5SH or FH12A-30S-0.5SH or FH12S-30S-0.5SH|Connector 30-pin 0.50mm Horizontal for e-ink||
 
+|2|-|Waveshare 17574|e-ink 1.02|https://www.waveshare.com/w/upload/2/2b/1.02inch-e-Paper_Specification.pdf|
+|2|SMD|SKQGADE010|Reset button|https://tech.alpsalpine.com/prod/e/html/tact/surfacemount/skqg/skqgade010.html|
+|2|SMD|JS102011SAQN|On/off slide switch|https://www.mouser.fr/ProductDetail/CK/JS102011SAQN?qs=%2Fha2pyFaduiV2nqaS%252BU8Q9wtp%2FpUP0ZhxQ7YjhJWd98Vv%2FajANoXBg%3D%3D|
+|1|SMD|810-22-008-40-001101|Spring Loaded Pogo Connectors 8-pin|https://www.mouser.fr/ProductDetail/Mill-Max/810-22-008-40-001101?qs=XvIqXwAF0edJjs2Rmv%2FtNw%3D%3D|
+|1|SMD|319-10-108-40-080001|Spring Loaded Target Connectors 8-pin|https://www.mill-max.com/products/datasheet/sockets/319-10-108-40-080001|
 To be confirmed:
 joystick_analogic	kevin:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal_reversible
 

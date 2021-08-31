@@ -16,6 +16,10 @@ K switch stick
 F https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhade010.html
 $ENDCMP
 #
+$CMP eink
+F https://www.waveshare.com/w/upload/2/2b/1.02inch-e-Paper_Specification.pdf
+$ENDCMP
+#
 $CMP nice_nano_v2
 F https://nicekeyboards.com/docs/nice-nano/pinout-schematic/
 $ENDCMP

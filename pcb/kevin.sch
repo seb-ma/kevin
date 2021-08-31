@@ -46,8 +46,8 @@ U 1 1 61101D88
 P 5150 4825
 F 0 "J4" H 5230 4817 50  0000 L CNN
 F 1 "to-trackball-side" H 5230 4726 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 5150 4825 50  0001 C CNN
-F 3 "~" H 5150 4825 50  0001 C CNN
+F 2 "kevin:Mill-Max_319-10-108-40-080001_reversible" H 5150 4825 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/datasheet/sockets/319-10-108-40-080001" H 5150 4825 50  0001 C CNN
 	1    5150 4825
 	1    0    0    -1  
 $EndComp
@@ -77,8 +77,8 @@ U 1 1 612BA03C
 P 1175 7000
 F 0 "J5" H 1255 6992 50  0000 L CNN
 F 1 "trackball-side" H 1255 6901 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 1175 7000 50  0001 C CNN
-F 3 "~" H 1175 7000 50  0001 C CNN
+F 2 "kevin:Mill-Max_810-22-008-40-001101_reversible" H 1175 7000 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/datasheet/sockets/810-22-008-40-001101" H 1175 7000 50  0001 C CNN
 	1    1175 7000
 	-1   0    0    -1  
 $EndComp
@@ -1152,7 +1152,7 @@ U 1 1 6271F268
 P 4375 6925
 F 0 "U3" H 4400 7440 50  0000 C CNN
 F 1 "PMW3360DM-T2QU" H 4400 7349 50  0000 C CNN
-F 2 "kevin:IC_PMW3360DM-T2QU" H 4425 7325 50  0001 C CNN
+F 2 "kevin:PMW3360DM-T2QU" H 4425 7325 50  0001 C CNN
 F 3 "https://www.epsglobal.com/Media-Library/EPSGlobal/Products/files/pixart/PMW3360DM-T2QU.pdf?ext=.pdf" H 4425 7325 50  0001 C CNN
 	1    4375 6925
 	1    0    0    -1  
@@ -1640,6 +1640,19 @@ F 1 "Battery_Cell" H 7843 5430 50  0000 L CNN
 F 2 "kevin:Battery_holder_reversible" V 7725 5485 50  0001 C CNN
 F 3 "~" V 7725 5485 50  0001 C CNN
 	1    7725 5425
+	1    0    0    -1  
+$EndComp
+Text Notes 8775 3675 0    50   ~ 0
+e-ink\n(connected to J3)
+$Comp
+L kevin:eink U4
+U 1 1 61326336
+P 8975 3925
+F 0 "U4" H 9203 3971 50  0000 L CNN
+F 1 "eink" H 9203 3880 50  0000 L CNN
+F 2 "kevin:Waveshare_eink_1.02 holder_reversible" H 8975 3925 50  0001 C CNN
+F 3 "https://www.waveshare.com/w/upload/2/2b/1.02inch-e-Paper_Specification.pdf" H 8975 3925 50  0001 C CNN
+	1    8975 3925
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

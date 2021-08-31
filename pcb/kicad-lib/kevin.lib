@@ -71,6 +71,18 @@ X D 6 275 -150 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# eink
+#
+DEF eink U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "eink" 0 -50 50 H V C CNN
+F2 "kevin:Waveshare_eink_1.02 holder_reversible" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -150 200 150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # nice_nano_v2
 #
 DEF nice_nano_v2 U 0 40 Y Y 1 F N
@@ -79,7 +91,7 @@ F1 "nice_nano_v2" 0 800 60 H V C CNN
 F2 "kevin:nice_nano_v2_reversible" 1050 -2500 60 V I C CNN
 F3 "" 1050 -2500 60 V I C CNN
 DRAW
-S -500 -850 500 850 0 1 0 N
+S -500 -850 500 850 0 1 0 f
 X GND 1 -700 650 200 R 50 50 1 1 I
 X P1.00 10 -700 -250 200 R 50 50 1 1 B
 X P0.11 11 -700 -350 200 R 50 50 1 1 B
