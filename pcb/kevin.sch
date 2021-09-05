@@ -13,29 +13,17 @@ Comment2 "- with joystick either analog or numeric"
 Comment3 "- with e-ink"
 Comment4 "Half part of split keyboard"
 $EndDescr
-Text GLabel 4950 5225 0    50   Output ~ 0
-trackball_detect
-Text GLabel 4950 5125 0    50   Input ~ 0
-spi_reset
 Text Notes 4300 4375 0    50   ~ 0
 connector (pogo)\nto external trackball -->
-Text GLabel 4950 5025 0    50   Input ~ 0
-trackball_cs
-Text GLabel 4950 4825 0    50   Output ~ 0
-spi_miso
-Text GLabel 4950 4925 0    50   Input ~ 0
-spi_clk
-Text GLabel 4950 4725 0    50   Input ~ 0
-spi_mosi
 $Comp
 L power:GND #PWR0115
 U 1 1 61108E9E
-P 4950 4625
-F 0 "#PWR0115" H 4950 4375 50  0001 C CNN
-F 1 "GND" V 4955 4497 50  0000 R CNN
-F 2 "" H 4950 4625 50  0001 C CNN
-F 3 "" H 4950 4625 50  0001 C CNN
-	1    4950 4625
+P 4950 5225
+F 0 "#PWR0115" H 4950 4975 50  0001 C CNN
+F 1 "GND" V 4955 5097 50  0000 R CNN
+F 2 "" H 4950 5225 50  0001 C CNN
+F 3 "" H 4950 5225 50  0001 C CNN
+	1    4950 5225
 	0    1    1    0   
 $EndComp
 Text GLabel 4950 4525 0    50   Input ~ 0
@@ -1083,25 +1071,25 @@ vdd_3v3
 $Comp
 L power:GND #PWR0116
 U 1 1 626EE7E6
-P 1375 6800
-F 0 "#PWR0116" H 1375 6550 50  0001 C CNN
-F 1 "GND" V 1380 6672 50  0000 R CNN
-F 2 "" H 1375 6800 50  0001 C CNN
-F 3 "" H 1375 6800 50  0001 C CNN
-	1    1375 6800
+P 1375 7400
+F 0 "#PWR0116" H 1375 7150 50  0001 C CNN
+F 1 "GND" V 1380 7272 50  0000 R CNN
+F 2 "" H 1375 7400 50  0001 C CNN
+F 3 "" H 1375 7400 50  0001 C CNN
+	1    1375 7400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1375 6900 2    50   Output ~ 0
+Text GLabel 1375 6800 2    50   Output ~ 0
 spi_mosi
-Text GLabel 1375 7000 2    50   Input ~ 0
+Text GLabel 1375 6900 2    50   Input ~ 0
 spi_miso
-Text GLabel 1375 7100 2    50   Output ~ 0
+Text GLabel 1375 7000 2    50   Output ~ 0
 spi_clk
-Text GLabel 1375 7200 2    50   Output ~ 0
+Text GLabel 1375 7100 2    50   Output ~ 0
 trackball_cs
-Text GLabel 1375 7300 2    50   Output ~ 0
+Text GLabel 1375 7200 2    50   Output ~ 0
 spi_reset
-Text GLabel 1375 7400 2    50   Input ~ 0
+Text GLabel 1375 7300 2    50   Input ~ 0
 trackball_detect
 Text GLabel 5300 6675 2    50   Input ~ 0
 vdd_3v3
@@ -1309,7 +1297,7 @@ U 1 1 615B2052
 P 10200 1575
 F 0 "R02" H 10270 1621 50  0000 L CNN
 F 1 "10k" H 10270 1530 50  0000 L CNN
-F 2 "kevin:R_1206_reversible" V 10130 1575 50  0001 C CNN
+F 2 "kevin:R_0805_reversible" V 10130 1575 50  0001 C CNN
 F 3 "~" H 10200 1575 50  0001 C CNN
 	1    10200 1575
 	-1   0    0    -1  
@@ -1423,7 +1411,7 @@ U 1 1 615F53A5
 P 5225 6825
 F 0 "R23" H 5295 6871 50  0000 L CNN
 F 1 "10k" H 5295 6780 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5155 6825 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5155 6825 50  0001 C CNN
 F 3 "~" H 5225 6825 50  0001 C CNN
 	1    5225 6825
 	1    0    0    -1  
@@ -1650,4 +1638,16 @@ Text Notes 8925 4550 0    118  ~ 24
 Mechanical parts
 Wire Notes Line style solid
 	8700 6525 8700 475 
+Text GLabel 4950 4625 0    50   Input ~ 0
+spi_mosi
+Text GLabel 4950 4825 0    50   Input ~ 0
+spi_clk
+Text GLabel 4950 4725 0    50   Output ~ 0
+spi_miso
+Text GLabel 4950 4925 0    50   Input ~ 0
+trackball_cs
+Text GLabel 4950 5025 0    50   Input ~ 0
+spi_reset
+Text GLabel 4950 5125 0    50   Output ~ 0
+trackball_detect
 $EndSCHEMATC

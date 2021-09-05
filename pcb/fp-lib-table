@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name kevin)(type KiCad)(uri ${KIPRJMOD}/kicad-lib/)(options "")(descr ""))
+  (lib (name kevin-3d-comp)(type KiCad)(uri ${KIPRJMOD}/3d-components)(options "")(descr ""))
 )

@@ -96,6 +96,7 @@ ToDo:
 |2|SMD|JS102011SAQN|On/off slide switch|https://www.mouser.fr/ProductDetail/CK/JS102011SAQN?qs=%2Fha2pyFaduiV2nqaS%252BU8Q9wtp%2FpUP0ZhxQ7YjhJWd98Vv%2FajANoXBg%3D%3D|
 |1|SMD|810-22-008-40-001101|Spring Loaded Pogo Connectors 8-pin|https://www.mouser.fr/ProductDetail/Mill-Max/810-22-008-40-001101?qs=XvIqXwAF0edJjs2Rmv%2FtNw%3D%3D|
 |1|SMD|319-10-108-40-080001|Spring Loaded Target Connectors 8-pin|https://www.mill-max.com/products/datasheet/sockets/319-10-108-40-080001|
+|1|-|B32-1310 (or any compatible)|Switch cap for numeric joystick|https://www.mouser.fr/datasheet/2/307/en-b32-13586.pdf|
 To be confirmed:
 joystick_analogic	kevin:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal_reversible
 
@@ -111,6 +112,7 @@ Thanks to them, kevin was born.
 - [nice!nano](https://nicekeyboards.com/nice-nano)
 - [Keebio-Parts.pretty](https://github.com/keebio/Keebio-Parts.pretty)
 - [random-keyboard-parts.pretty](https://github.com/ai03-2725/random-keyboard-parts.pretty)
+- 3D view of components from manufacturers
 - Guides:
   - [the keyboard designer wiki @ ai03.com](https://wiki.ai03.com/)
   - [Designing a keyboard from scratch](https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/)

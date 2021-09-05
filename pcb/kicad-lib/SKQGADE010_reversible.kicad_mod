@@ -1,4 +1,4 @@
-(module SKQGADE010_reversible (layer F.Cu) (tedit 6124000F)
+(module SKQGADE010_reversible (layer F.Cu) (tedit 6133DD98)
   (descr "Alps Tact Switch 5.2mm Square Low-profile (Surface Mount Type)")
   (attr smd)
   (fp_text reference REF** (at 0 4.064) (layer F.SilkS)
