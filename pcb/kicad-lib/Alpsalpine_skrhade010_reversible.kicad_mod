@@ -1,4 +1,4 @@
-(module Alpsalpine_skrhade010_reversible (layer F.Cu) (tedit 6134CB98)
+(module Alpsalpine_skrhade010_reversible (layer F.Cu) (tedit 613529A1)
   (attr smd)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -39,7 +39,7 @@
   (pad 1 smd rect (at 3.975 -1.425 180) (size 2.15 1) (layers B.Cu B.Paste B.Mask))
   (pad "" np_thru_hole circle (at 0 -1.9 180) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask))
   (pad 6 smd rect (at -3.975 1.425 180) (size 2.15 1) (layers B.Cu B.Paste B.Mask))
-  (model ${KIPRJMOD}/3d-components/SKRHAD.STEP
+  (model :3d_components:SKRHAD.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

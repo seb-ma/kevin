@@ -1,4 +1,4 @@
-(module Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal_reversible (layer F.Cu) (tedit 6134C894)
+(module Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal_reversible (layer F.Cu) (tedit 613529E4)
   (descr "Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0040, 4 Circuits (https://www.molex.com/pdm_docs/sd/2005280040_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex  top entry")
   (attr smd)
@@ -102,7 +102,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/3d-components/CON_MOLEX_2005280040.stp
+  (model :3d_components:CON_MOLEX_2005280040.step
     (offset (xyz 0 1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 180))

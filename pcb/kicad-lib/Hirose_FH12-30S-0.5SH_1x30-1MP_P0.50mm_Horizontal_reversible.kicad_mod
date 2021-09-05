@@ -1,4 +1,4 @@
-(module Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal_reversible (layer F.Cu) (tedit 6134CF28)
+(module Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal_reversible (layer F.Cu) (tedit 613529EF)
   (descr "Hirose FH12, FFC/FPC connector, FH12-30S-0.5SH, 30 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
   (tags "connector Hirose FH12 horizontal")
   (attr smd)
@@ -142,7 +142,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/3d-components/CON_HIROSE_FH12-30S-0_5SH_55_.stp
+  (model :3d_components:CON_HIROSE_FH12-30S-0_5SH_55_.step
     (offset (xyz 14.45 -10.5 -78))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 90 0))

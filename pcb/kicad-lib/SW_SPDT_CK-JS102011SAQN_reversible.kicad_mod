@@ -1,4 +1,4 @@
-(module SW_SPDT_CK-JS102011SAQN_reversible (layer F.Cu) (tedit 6134CA59)
+(module SW_SPDT_CK-JS102011SAQN_reversible (layer F.Cu) (tedit 613529C5)
   (descr "Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf")
   (tags "switch spdt")
   (attr smd)
@@ -191,7 +191,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/3d-components/SW_SPDT_CK-JS102011SAQN.stp
+  (model :3d_components:SW_SPDT_CK-JS102011SAQN.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
